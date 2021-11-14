@@ -1,0 +1,49 @@
+.article {
+  width: 100%;
+  padding: 5px;
+  display: flex;
+  padding-bottom: 20px;
+  position: relative;
+  gap: 10px;
+}
+
+.article-image {
+  display: inline-block;
+  min-width: 100px;
+  height: 100px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.article-details {
+  height: 100%;
+  display: inline-block;
+}
+
+.article-info-heading {
+  height: 48%;
+  overflow: hidden;
+}
+
+.article-badge {
+  height: 10%;
+  text-align: left;
+  padding: 5px 0;
+}
+
+.article::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  border-top: 1px solid #f0f0f0;
+  top: -1.3rem;
+}
+
+.article-num {
+  transform: scale(4);
+  color: #f0f0f0;
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 700;
+  padding-bottom: 15px;
+}

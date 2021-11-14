@@ -1,0 +1,13 @@
+.heading {
+  font-size: 40px;
+  font-weight: 500;
+  position: relative;
+}
+.heading::after {
+  content: '';
+  position: absolute;
+  width: 90px;
+  bottom: -10px;
+  left: 0px;
+  border-top: 3px solid #f08080;
+}

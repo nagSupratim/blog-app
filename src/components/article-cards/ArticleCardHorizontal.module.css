@@ -1,0 +1,37 @@
+.article {
+  height: 537px;
+}
+.article-image {
+  height: 229px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: inherit;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.article-details {
+  height: 308px;
+}
+
+.article-info {
+  height: 90%;
+}
+
+.article-info-heading {
+  height: 26%;
+  overflow: hidden;
+}
+
+.article-info-content {
+  padding-top: 5px;
+  height: 68%;
+  overflow: hidden;
+}
+
+.article-badge {
+  height: 10%;
+  text-align: left;
+  padding-top: 5px;
+}

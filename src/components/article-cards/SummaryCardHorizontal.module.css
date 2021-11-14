@@ -1,0 +1,35 @@
+.article {
+  height: 400px;
+}
+.article-image {
+  height: 229px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: inherit;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.article-details {
+  text-align: left;
+}
+
+.article-info-heading {
+  height: 100%;
+  overflow: hidden;
+}
+
+.article-badge {
+  height: 10%;
+  text-align: left;
+  padding-top: 5px;
+}
+
+.article-num {
+  transform: scale(4.5);
+  color: #f0f0f0;
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 700;
+  padding-bottom: 5px;
+}

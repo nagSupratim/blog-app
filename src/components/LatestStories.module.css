@@ -1,0 +1,23 @@
+.stories {
+  position: relative;
+}
+
+.stories::before,
+.stories::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  border: 1px solid #f0f0f0;
+}
+
+.single-article {
+  position: relative;
+}
+.single-article::before {
+  content: '';
+  position: absolute;
+  height: 100%;
+  border-left: 2px solid #f0f0f0;
+  top: 0;
+  left: -1.5rem;
+}

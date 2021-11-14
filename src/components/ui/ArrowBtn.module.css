@@ -1,0 +1,41 @@
+.btn {
+  border: none;
+  background: transparent;
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+}
+
+.label {
+  text-transform: uppercase;
+  color: #a2a2a2;
+}
+
+.arrow {
+  color: orange;
+  display: none;
+}
+
+.left,
+.up,
+.right,
+.down {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.left {
+  transform: rotate(0);
+}
+
+.up {
+  transform: rotate(90deg);
+}
+
+.right {
+  transform: rotate(180deg);
+}
+
+.down {
+  transform: rotate(-90deg);
+}

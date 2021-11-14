@@ -1,0 +1,40 @@
+.rotateBrandText,
+.normalBrandText {
+  display: inline-block;
+}
+
+.rotateBrandText {
+  transform: rotate(-90deg);
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+
+.normalBrandText {
+  font-weight: 700;
+  font-size: 1.6rem;
+}
+
+@media screen and (min-width: 576px) {
+  .navBar {
+    position: relative;
+  }
+  .navBarCol {
+    position: relative;
+  }
+  .navBarCol::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    bottom: -10px;
+    left: 0;
+    border-bottom: 3px solid #f0f0f0;
+  }
+  .rotateBrandText {
+    font-size: 1.3rem;
+    font-weight: 400;
+  }
+  .normalBrandText {
+    font-weight: 700;
+    font-size: 3rem;
+  }
+}
