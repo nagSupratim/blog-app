@@ -5,6 +5,8 @@ import ImageArticle from './article-cards/ImageArticle';
 import ArrowBtn from './ui/ArrowBtn';
 import Heading from './ui/Heading';
 
+import classes from './LatestArticles.module.css';
+
 const articlesData = [
   {
     id: 'ts-007',
@@ -38,7 +40,7 @@ const articlesData = [
     url: 'https://cdn.pixabay.com/photo/2019/08/14/04/39/temple-4404706_960_720.jpg',
     title: 'Catch waves with an adventure guide',
     content:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque vero ipsa impedit rerum at ut adipisci dicta voluptatem. Laboriosam, fuga?Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque vero ipsa impedit rerum at ut adipisci dicta voluptatem. Laboriosam, fuga? Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque vero ipsa impedit rerum at ut adipisci dicta voluptatem. Laboriosam, fuga?',
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque vero ipsa impedit rerum at ut adipisci dicta voluptatem. Laboriosam, fuga?',
     category: 'Travel',
     date: 'August 21 2021',
   },
@@ -58,7 +60,10 @@ const LatestArticles = () => {
       <div className="container mt-5 pt-5 px-0">
         <div className="row gap-5 ">
           {articlesData.map((data) => (
-            <div className="col-12 p-0 pe-md-5" key={data.id}>
+            <div
+              className={`col-12 p-0 pe-md-5 ${classes.article}`}
+              key={data.id}
+            >
               <ArticleCardVertical {...data} className="pe-md-5" />
             </div>
           ))}

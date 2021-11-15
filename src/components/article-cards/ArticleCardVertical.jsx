@@ -17,7 +17,7 @@ const ArticleCardVertical = (props) => {
           backgroundImage: `url(${props.url})`,
         }}
       ></div>
-      <section className={`${classes['article-details']} px-4 `}>
+      <section className={`${classes['article-details']} px-3 `}>
         <div className={`${classes['article-info']} px-2`}>
           <div className={classes['article-info-heading']}>
             <ArticleHeading>{props.title}</ArticleHeading>

@@ -2,6 +2,7 @@
   font-size: 40px;
   font-weight: 500;
   position: relative;
+  text-transform: capitalize;
 }
 .heading::after {
   content: '';

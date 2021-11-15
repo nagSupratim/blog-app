@@ -16,7 +16,8 @@ function App() {
         <Route path="/home" element={<Home />} />
         <Route path="/category/:category" element={<CategoryDetails />} />
         <Route path="/blogs/:blogID" element={<SingleBlog />} />
-        <Route path="*" element={<Fallback />} />
+        <Route path="/error" element={<Fallback />} />
+        <Route path="*" element={<Navigate replace to="/error" />} />
       </Routes>
     </Layout>
   );

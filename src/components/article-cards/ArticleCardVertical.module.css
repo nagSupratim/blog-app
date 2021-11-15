@@ -4,7 +4,6 @@
   padding: 5px;
   display: flex;
   padding-bottom: 10px;
-  position: relative;
 }
 
 .article-image {
@@ -27,7 +26,7 @@
 }
 
 .article-info-heading {
-  height: 36%;
+  height: 34%;
   overflow: hidden;
 }
 
@@ -41,14 +40,6 @@
   height: 10%;
   text-align: left;
   padding: 5px 10px;
-}
-
-.article::before {
-  content: '';
-  position: absolute;
-  width: 100%;
-  border-top: 1px solid #f0f0f0;
-  top: -2.2rem;
 }
 
 @media screen and (min-width: 576px) {
