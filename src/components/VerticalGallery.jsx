@@ -31,7 +31,7 @@ const VerticalGallery = () => {
     <ImageArticle {...data} align="left" />
   ));
   const articlesSm = galleryData.map((data) => (
-    <Carousel.Item className="h-100">
+    <Carousel.Item className="h-100" key={data.id}>
       <ImageArticle {...data} align="left" className="h-100" />
     </Carousel.Item>
   ));
