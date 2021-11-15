@@ -47,7 +47,7 @@ const VerticalGallery = () => {
         </div>
       </div>
       <div className="row d-md-none h-100">
-        <Carousel controls={false} interval={null} className="h-100 p-0">
+        <Carousel controls={false} className="h-100 p-0">
           {articlesSm}
         </Carousel>
       </div>
