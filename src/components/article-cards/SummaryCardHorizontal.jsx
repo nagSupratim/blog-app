@@ -14,7 +14,7 @@ const SummaryCardHorizontal = (props) => {
         }}
       ></div>
       <div className="row">
-        <div className="col-9">
+        <div className="col-12 col-md-9">
           <section className={`${classes['article-details']} py-3`}>
             <div className={`${classes['article-info-heading']} my-2`}>
               <ArticleHeading>{props.title}</ArticleHeading>
@@ -25,9 +25,9 @@ const SummaryCardHorizontal = (props) => {
           </section>
         </div>
         <div
-          className={`col ${classes['article-num']} d-flex justify-content-center align-items-center`}
+          className={`d-none d-md-flex col-md-3 ${classes['article-num']} d-flex justify-content-center align-items-center`}
         >
-          {props.num}
+          <span>{props.num}</span>
         </div>
       </div>
     </article>

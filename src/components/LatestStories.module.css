@@ -9,6 +9,9 @@
   width: 100%;
   border: 1px solid #f0f0f0;
 }
+.stories::after {
+  display: none;
+}
 
 .single-article {
   position: relative;
@@ -20,4 +23,10 @@
   border-left: 2px solid #f0f0f0;
   top: 0;
   left: -1.5rem;
+}
+
+@media screen and (min-width: 576px) {
+  .stories::after {
+    display: block;
+  }
 }

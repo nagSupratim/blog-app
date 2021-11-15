@@ -1,3 +1,6 @@
+.navBar {
+  box-shadow: 0 2rem 5rem 0.5rem rgba(0, 0, 0, 0.04) !important;
+}
 .rotateBrandText,
 .normalBrandText {
   display: inline-block;
@@ -17,6 +20,7 @@
 @media screen and (min-width: 576px) {
   .navBar {
     position: relative;
+    box-shadow: 0 0 !important;
   }
   .navBarCol {
     position: relative;

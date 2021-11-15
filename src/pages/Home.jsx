@@ -11,17 +11,22 @@ const Home = () => {
   return (
     <>
       <VerticalGallery />
-      <LatestPosts />
-      <div className="row gap-4">
-        <div className="col-8 p-0">
-          <LatestArticles />
+      <div className="p-3 p-md-0">
+        <LatestPosts />
+        <div className="row gap-4 px-3">
+          <div className="col-12 col-md-8 p-0">
+            <LatestArticles />
+          </div>
+          <div className="col p-0 mt-5">
+            <Advertisement
+              style={{ height: '800px', marginTop: '118px' }}
+              className="d-none d-md-flex"
+            />
+            <TopPosts className="mt-5" />
+          </div>
         </div>
-        <div className="col p-0 mt-5">
-          <Advertisement style={{ height: '800px', marginTop: '118px' }} />
-          <TopPosts className="mt-5" />
-        </div>
+        <LatestStories />
       </div>
-      <LatestStories />
     </>
   );
 };

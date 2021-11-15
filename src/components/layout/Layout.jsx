@@ -6,7 +6,9 @@ const Layout = (props) => {
   return (
     <React.Fragment>
       <MainNavigation />
-      <Container>{props.children}</Container>
+      <Container className="mt-5 container-md p-0 px-md-3">
+        {props.children}
+      </Container>
     </React.Fragment>
   );
 };

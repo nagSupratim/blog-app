@@ -7,7 +7,9 @@ import classes from './StoryArticle.module.css';
 
 const StoryArticle = (props) => {
   return (
-    <article className={`${classes['article']} px-5 py-4 ${props.className}`}>
+    <article
+      className={`${classes['article']} px-0 px-md-5 py-4 ${props.className}`}
+    >
       <div className={`${classes['article-info']}`}>
         <div className={classes['article-info-heading']}>
           <ArticleHeading>{props.title}</ArticleHeading>

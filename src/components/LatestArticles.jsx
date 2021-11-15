@@ -55,11 +55,11 @@ const LatestArticles = () => {
   return (
     <section className="my-5">
       <Heading>Latest Article</Heading>
-      <div className="container mt-5 pt-5">
+      <div className="container mt-5 pt-5 px-0">
         <div className="row gap-5 ">
           {articlesData.map((data) => (
-            <div className="col-12 p-0 pe-5" key={data.id}>
-              <ArticleCardVertical {...data} className="pe-5" />
+            <div className="col-12 p-0 pe-md-5" key={data.id}>
+              <ArticleCardVertical {...data} className="pe-md-5" />
             </div>
           ))}
         </div>
@@ -70,7 +70,7 @@ const LatestArticles = () => {
         arrowStart={true}
         className="my-3 ms-4"
       />
-      <div className="my-5 py-5" style={{ height: '590px' }}>
+      <div className="d-none d-md-block my-5 py-5" style={{ height: '610px' }}>
         <ImageArticle {...galleryData} align="center" />
       </div>
     </section>

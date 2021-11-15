@@ -38,12 +38,12 @@ const LatestStories = () => {
     <div className="my-5">
       <Heading>Latest Stories</Heading>
       <div className={`container px-0 my-5 ${classes.stories}`}>
-        <div className="row text-center gap-5">
+        <div className="row text-center gap-md-5 m-3">
           {storiesData.map((data, i) => (
-            <div className="col p-0" key={data.id}>
+            <div className="col-12 col-md p-0" key={data.id}>
               <StoryArticle
                 {...data}
-                className={`my-5 ${i !== 0 && classes['single-article']}`}
+                className={`my-md-5 ${i !== 0 && classes['single-article']}`}
               />
             </div>
           ))}
@@ -53,7 +53,7 @@ const LatestStories = () => {
         label="view more"
         type="right"
         arrowStart={false}
-        className="ms-5"
+        className="ms-3 ms-md-5"
       />
     </div>
   );

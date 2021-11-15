@@ -28,7 +28,7 @@ const MainNavigation = () => {
     <Navbar
       bg="white"
       expand="md"
-      className={`sticky-top px-2 py-0 px-md-5 ${classes.navBar}`}
+      className={`fixed-top px-2 py-0 px-md-5 ${classes.navBar}`}
       collapseOnSelect
     >
       <Container className="flex-md-column">
