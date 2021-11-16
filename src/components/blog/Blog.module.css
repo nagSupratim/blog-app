@@ -1,0 +1,56 @@
+.blog {
+  position: relative;
+}
+
+.content {
+  padding: 10px 0;
+}
+
+.badges {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin: 30px 0;
+}
+
+.reactions {
+  margin: 20px 0;
+  display: flex;
+  gap: 15px;
+  align-items: flex-end;
+  cursor: pointer;
+}
+
+.reactions div {
+  color: #939393;
+  font-size: 0.8rem;
+}
+
+.author {
+  position: relative;
+  margin-top: 40px;
+}
+
+.author::before,
+.author::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  border-top: 2px solid #f0f0f0;
+}
+
+.author::before {
+  top: -20px;
+  left: 0;
+}
+
+.author::after {
+  bottom: -20px;
+  left: 0;
+}
+
+.actions {
+  position: fixed;
+  top: 50%;
+  left: 12%;
+}

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Advertisement from '../components/Advertisement';
 import LatestArticles from '../components/LatestArticles';
 import LatestPosts from '../components/LatestPosts';
@@ -10,6 +11,7 @@ import VerticalGallery from '../components/VerticalGallery';
 const Home = () => {
   return (
     <>
+      <Link to={'/blogs/12345'}>To a Blog</Link>
       <VerticalGallery />
       <div className="p-3 p-md-0">
         <LatestPosts />

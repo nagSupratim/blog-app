@@ -6,7 +6,10 @@ import classes from './SummaryCardHorizontal.module.css';
 
 const SummaryCardHorizontal = (props) => {
   return (
-    <article className={`${props.className} ${classes.article}`}>
+    <article
+      className={`${props.className} ${classes.article}`}
+      style={props.heightauto && { height: 'auto' }}
+    >
       <div
         className={classes['article-image']}
         style={{
@@ -20,15 +23,19 @@ const SummaryCardHorizontal = (props) => {
               <ArticleHeading>{props.title}</ArticleHeading>
             </div>
             <div className={classes['article-badge']}>
-              <ArticleBadge category={props.category} date={props.date} />
+              {props.category && props.date && (
+                <ArticleBadge category={props.category} date={props.date} />
+              )}
             </div>
           </section>
         </div>
-        <div
-          className={`d-none d-md-flex col-md-3 ${classes['article-num']} d-flex justify-content-center align-items-center`}
-        >
-          <span>{props.num}</span>
-        </div>
+        {props.num && (
+          <div
+            className={`d-none d-md-flex col-md-3 ${classes['article-num']} d-flex justify-content-center align-items-center`}
+          >
+            <span>{props.num}</span>
+          </div>
+        )}
       </div>
     </article>
   );
