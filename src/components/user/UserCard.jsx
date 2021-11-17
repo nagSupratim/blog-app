@@ -4,7 +4,6 @@ import userIcon from './user-skeleton.png';
 import classes from './UserCard.module.css';
 
 const UserCard = (props) => {
-  console.log(props);
   return (
     <div className={classes.user}>
       <div className="d-flex h-100">

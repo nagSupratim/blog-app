@@ -1,4 +1,5 @@
 import React from 'react';
+import SmSummaryCard from '../article-cards/SmSummaryCard';
 import SummaryCardHorizontal from '../article-cards/SummaryCardHorizontal';
 import UserCard from '../user/UserCard';
 
@@ -35,25 +36,36 @@ const MoreContent = (props) => {
   return (
     <div className={`${classes.contents}`}>
       <h4>More from The Siren </h4>
-      <div className={`${classes.items} mt-4 row gap-md-4`}>
+      <div
+        className={`${classes.items} mt-0 mt-md-4 row flex-column flex-md-row gap-md-4`}
+      >
         {contentData.map((data) => (
-          <div className="col-12 col-md" key={data.id}>
-            <span className="mt-2 mb-3 d-inline-block">{data.tag}</span>
-            <SummaryCardHorizontal
-              title={data.title}
-              url={data.url}
-              heightauto={true}
-            />
-            <div className="d-flex">
-              <div className={classes.user}>
-                <UserCard
-                  user={props.user}
-                  minutes={data.minutes}
-                  date={data.date}
-                />
+          <React.Fragment key={data.id}>
+            <div className="d-none d-md-block col-md">
+              <span className="mt-2 mb-3 d-inline-block">{data.tag}</span>
+              <SummaryCardHorizontal
+                title={data.title}
+                url={data.url}
+                heightauto={true}
+              />
+              <div className="d-flex">
+                <div className={classes.user}>
+                  <UserCard
+                    user={props.user}
+                    minutes={data.minutes}
+                    date={data.date}
+                  />
+                </div>
               </div>
             </div>
-          </div>
+            <div className="d-block d-md-none">
+              <SmSummaryCard
+                user={props.user}
+                title={data.title}
+                url={data.url}
+              />
+            </div>
+          </React.Fragment>
         ))}
       </div>
     </div>

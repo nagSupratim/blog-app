@@ -18,6 +18,7 @@
   width: 98%;
   margin: 0 10px;
   top: 0;
+  display: none;
 }
 
 .items span {
@@ -28,4 +29,10 @@
 .user {
   display: flex;
   transform: scale(0.9);
+}
+
+@media screen and (min-width: 576px) {
+  .items::before {
+    display: block;
+  }
 }

@@ -4,6 +4,25 @@
 
 .content {
   padding: 10px 0;
+  width: 100%;
+}
+
+.content * {
+  margin-bottom: 50px;
+}
+
+.content *:last-child {
+  margin-bottom: 0px;
+}
+
+.content img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.content p {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 21px;
 }
 
 .badges {
@@ -45,12 +64,52 @@
 }
 
 .author::after {
+  display: none;
   bottom: -20px;
   left: 0;
 }
 
 .actions {
-  position: fixed;
-  top: 50%;
-  left: 12%;
+  display: none;
+}
+
+@media screen and (min-width: 576px) {
+  .content * {
+    margin-bottom: 70px;
+  }
+
+  .content *:last-child {
+    margin-bottom: 20px;
+  }
+
+  .author::after {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .actions {
+    display: block;
+    position: fixed;
+    top: 50%;
+    left: 12%;
+  }
+
+  .actions span {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1350px) {
+  .actions span {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 1550px) {
+  .actions {
+    position: fixed;
+    top: 50%;
+    left: 19%;
+  }
 }
