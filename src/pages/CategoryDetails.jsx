@@ -99,12 +99,12 @@ const CategoryDetails = () => {
   }, [category, navigate]);
 
   return (
-    <div className="row p-3 p-md-0">
-      <div className="col-12 col-md-8">
+    <div className="container row px-4 m-0 p-md-0">
+      <div className="col-12 p-0 col-md-8">
         <CategoryPosts heading={category} data={postsData} />
       </div>
-      <div className="col-12 col-md">
-        <TopPosts className="mt-5 ms-2" />
+      <div className="col-12 p-0 col-md">
+        <TopPosts className="mt-5" />
         <Advertisement
           style={{ height: '800px', marginTop: '118px' }}
           className="d-none d-md-flex"
