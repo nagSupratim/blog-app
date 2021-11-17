@@ -54,6 +54,13 @@
     margin-bottom: 10px;
   }
 
+  .article-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 8px;
+  }
+
   .article-info-heading {
     height: 48%;
     overflow: hidden;

@@ -1,5 +1,4 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React, { useEffect } from 'react';
 import Advertisement from '../components/Advertisement';
 import LatestArticles from '../components/LatestArticles';
 import LatestPosts from '../components/LatestPosts';
@@ -9,9 +8,15 @@ import TopPosts from '../components/TopPosts';
 import VerticalGallery from '../components/VerticalGallery';
 
 const Home = () => {
+  useEffect(() => {
+    window.scrollTo({
+      top: -200,
+      left: -100,
+      behavior: 'smooth',
+    });
+  }, []);
   return (
     <>
-      <Link to={'/blogs/12345'}>To a Blog</Link>
       <VerticalGallery />
       <div className="p-3 p-md-0">
         <LatestPosts />

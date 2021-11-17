@@ -83,7 +83,14 @@ const CategoryDetails = () => {
   const params = useParams();
   const navigate = useNavigate();
   const category = params.category;
-  console.log(category);
+
+  useEffect(() => {
+    window.scrollTo({
+      top: -200,
+      left: -100,
+      behavior: 'smooth',
+    });
+  }, [category]);
 
   useEffect(() => {
     if (!validCategories.includes(category)) {

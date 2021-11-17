@@ -7,6 +7,7 @@ const CardWrap = (props) => {
     <article
       className={`${classes.card} ${props.className}`}
       style={props.style}
+      onClick={props.onClick}
     >
       {props.children}
     </article>
