@@ -10,16 +10,42 @@ import SingleBlog from './pages/SingleBlog';
 
 function App() {
   return (
-    <Layout>
-      <Routes>
-        <Route path="/" element={<Navigate replace to="/home" />} />
-        <Route path="/home" element={<Home />} />
-        <Route path="/category/:category" element={<CategoryDetails />} />
-        <Route path="/blogs/:blogID" element={<SingleBlog />} />
-        <Route path="/error" element={<Fallback />} />
-        <Route path="*" element={<Navigate replace to="/error" />} />
-      </Routes>
-    </Layout>
+    <Routes>
+      <Route path="/" element={<Navigate replace to="/home" />} exact />
+      <Route
+        path="/home"
+        element={
+          <Layout>
+            <Home />
+          </Layout>
+        }
+      />
+      <Route
+        path="/category/:category"
+        element={
+          <Layout>
+            <CategoryDetails />
+          </Layout>
+        }
+      />
+      <Route
+        path="/blogs/:blogID"
+        element={
+          <Layout secondary={true}>
+            <SingleBlog />
+          </Layout>
+        }
+      />
+      <Route
+        path="/error"
+        element={
+          <Layout>
+            <Fallback />
+          </Layout>
+        }
+      />
+      <Route path="*" element={<Navigate replace to="/error" />} />
+    </Routes>
   );
 }
 

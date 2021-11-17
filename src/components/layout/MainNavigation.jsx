@@ -16,8 +16,8 @@ const MainNavigation = () => {
     <Nav.Link
       key={navdata.id}
       as={Link}
-      to={`category/${navdata.to}`}
-      href={`category/${navdata.to}`}
+      to={`/category/${navdata.to}`}
+      href={`/category/${navdata.to}`}
       className="text-capitalize"
     >
       {navdata.text}

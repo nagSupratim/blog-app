@@ -83,6 +83,7 @@ const CategoryDetails = () => {
   const params = useParams();
   const navigate = useNavigate();
   const category = params.category;
+  console.log(category);
 
   useEffect(() => {
     if (!validCategories.includes(category)) {

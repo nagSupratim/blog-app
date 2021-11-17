@@ -1,4 +1,5 @@
 import React from 'react';
+import { Container } from 'react-bootstrap';
 import SmSummaryCard from '../article-cards/SmSummaryCard';
 import SummaryCardHorizontal from '../article-cards/SummaryCardHorizontal';
 import UserCard from '../user/UserCard';
@@ -35,39 +36,41 @@ const contentData = [
 const MoreContent = (props) => {
   return (
     <div className={`${classes.contents}`}>
-      <h4>More from The Siren </h4>
-      <div
-        className={`${classes.items} mt-0 mt-md-4 row flex-column flex-md-row gap-md-4`}
-      >
-        {contentData.map((data) => (
-          <React.Fragment key={data.id}>
-            <div className="d-none d-md-block col-md">
-              <span className="mt-2 mb-3 d-inline-block">{data.tag}</span>
-              <SummaryCardHorizontal
-                title={data.title}
-                url={data.url}
-                heightauto={true}
-              />
-              <div className="d-flex">
-                <div className={classes.user}>
-                  <UserCard
-                    user={props.user}
-                    minutes={data.minutes}
-                    date={data.date}
-                  />
+      <Container>
+        <h4>More from The Siren </h4>
+        <div
+          className={`${classes.items} mt-0 mt-md-4 row flex-column flex-md-row gap-md-4`}
+        >
+          {contentData.map((data) => (
+            <React.Fragment key={data.id}>
+              <div className="d-none d-md-block col-md">
+                <span className="mt-2 mb-3 d-inline-block">{data.tag}</span>
+                <SummaryCardHorizontal
+                  title={data.title}
+                  url={data.url}
+                  heightauto={true}
+                />
+                <div className="d-flex">
+                  <div className={classes.user}>
+                    <UserCard
+                      user={props.user}
+                      minutes={data.minutes}
+                      date={data.date}
+                    />
+                  </div>
                 </div>
               </div>
-            </div>
-            <div className="d-block d-md-none">
-              <SmSummaryCard
-                user={props.user}
-                title={data.title}
-                url={data.url}
-              />
-            </div>
-          </React.Fragment>
-        ))}
-      </div>
+              <div className="d-block d-md-none">
+                <SmSummaryCard
+                  user={props.user}
+                  title={data.title}
+                  url={data.url}
+                />
+              </div>
+            </React.Fragment>
+          ))}
+        </div>
+      </Container>
     </div>
   );
 };

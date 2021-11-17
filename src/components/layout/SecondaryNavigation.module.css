@@ -1,0 +1,26 @@
+.navBar {
+  box-shadow: 0 0.1rem 0.1rem 0.01rem #00000029 !important;
+  height: 50px;
+}
+
+.rotateBrandText,
+.normalBrandText {
+  display: inline-block;
+}
+
+.rotateBrandText {
+  transform: rotate(-90deg);
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+
+.normalBrandText {
+  font-weight: 700;
+  font-size: 1.6rem;
+}
+
+@media screen and (min-width: 576px) {
+  .navBar {
+    height: 70px;
+  }
+}
