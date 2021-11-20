@@ -7,7 +7,7 @@ const UserCard = (props) => {
   return (
     <div className={classes.user}>
       <div className="d-flex h-100">
-        <img src={userIcon} style={{ width: '80px' }} alt="user-icon" />
+        <img src={userIcon} alt="user-icon" />
         <div className="ms-3 d-flex flex-column justify-content-between h-100 gap-2">
           <section
             className={`${classes.upper} ${!props.badge && classes.hidden}`}

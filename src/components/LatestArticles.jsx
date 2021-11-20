@@ -53,13 +53,13 @@ const galleryData = {
   date: 'August 21 2021',
 };
 
-const LatestArticles = () => {
+const LatestArticles = (props) => {
   return (
     <section className="my-5">
       <Heading>Latest Article</Heading>
       <div className="container mt-5 pt-5 px-0">
         <div className="row gap-5 ">
-          {articlesData.map((data) => (
+          {props.data.map((data) => (
             <div
               className={`col-12 p-0 pe-md-5 ${classes.article}`}
               key={data.id}

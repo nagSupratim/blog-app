@@ -17,7 +17,7 @@ const StoryArticle = (props) => {
             <ArticleHeading>{props.title}</ArticleHeading>
           </div>
           <div className={classes['article-info-content']}>
-            <ArticleContent>{props.content}</ArticleContent>
+            <ArticleContent>{props.summary}</ArticleContent>
           </div>
         </div>
         <div className={classes['article-badge']}>

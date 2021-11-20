@@ -4,6 +4,8 @@ import Blog from '../components/blog/Blog';
 
 const SingleBlog = () => {
   const params = useParams();
+  const blogID = params.blogID;
+
   useEffect(() => {
     window.scrollTo({
       top: 0,
@@ -11,7 +13,7 @@ const SingleBlog = () => {
       behavior: 'smooth',
     });
   }, []);
-  const blogID = params.blogID;
+
   return <Blog id={blogID} />;
 };
 

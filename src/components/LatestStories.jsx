@@ -33,13 +33,13 @@ const storiesData = [
   },
 ];
 
-const LatestStories = () => {
+const LatestStories = (props) => {
   return (
     <div className="my-5">
       <Heading>Latest Stories</Heading>
       <div className={`container px-0 my-5 ${classes.stories}`}>
         <div className="row text-center gap-md-5 m-3">
-          {storiesData.map((data, i) => (
+          {props.data.map((data, i) => (
             <div className="col-12 col-md p-0" key={data.id}>
               <StoryArticle
                 {...data}

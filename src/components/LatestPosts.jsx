@@ -39,7 +39,7 @@ const LatestPosts = (props) => {
       <Heading>The Latest</Heading>
       <div className="container mt-5">
         <div className="row text-center gap-5">
-          {postsData.map((data) => (
+          {props.data.map((data) => (
             <div className="col p-0" key={data.id}>
               <ArticleCardHorizontal {...data} />
             </div>

@@ -25,7 +25,7 @@ const ArticleCardVertical = (props) => {
               <ArticleHeading>{props.title}</ArticleHeading>
             </div>
             <div className={classes['article-info-content']}>
-              <ArticleContent>{props.content}</ArticleContent>
+              <ArticleContent>{props.gist}</ArticleContent>
             </div>
           </div>
           <div className={classes['article-badge']}>

@@ -47,8 +47,8 @@ const TopPosts = (props) => {
     <div className={`${props.className}`}>
       <Heading>Top Posts</Heading>
       <div className="mt-5"></div>
-      <SummaryCardHorizontal {...postsData[0]} num="1" />
-      {postsData.slice(1).map((data, i) => (
+      <SummaryCardHorizontal {...props.data[0]} num="1" />
+      {props.data.slice(1).map((data, i) => (
         <SummaryCardVertical key={data.id} {...data} num={i + 2} />
       ))}
     </div>

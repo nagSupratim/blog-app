@@ -1,9 +1,10 @@
-import React, { useEffect } from 'react';
+import React, { useContext, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 
 import Advertisement from '../components/Advertisement';
 import CategoryPosts from '../components/CategoryPosts';
 import TopPosts from '../components/TopPosts';
+import AppContext from '../store/app-context';
 
 const validCategories = [
   'bollywood',
@@ -80,10 +81,16 @@ const postsData = [
 ];
 
 const CategoryDetails = () => {
+  const ctx = useContext(AppContext);
   const params = useParams();
   const navigate = useNavigate();
-  const category = params.category;
+  // const category = params.category;
+  const category = 'bollywood';
 
+  const blogs = ctx.getBlogs(category);
+  const topBlogs = ctx.getTopBlogs(category);
+
+  // For smooth scrolling - Scroll to top of page on navigating
   useEffect(() => {
     window.scrollTo({
       top: -200,
@@ -92,6 +99,7 @@ const CategoryDetails = () => {
     });
   }, [category]);
 
+  // For Validation, if the URL category is invalid, Navigate to - Fallback page
   useEffect(() => {
     if (!validCategories.includes(category)) {
       navigate('/error');
@@ -101,10 +109,10 @@ const CategoryDetails = () => {
   return (
     <div className="container row px-4 m-0 p-md-0">
       <div className="col-12 p-0 col-md-8">
-        <CategoryPosts heading={category} data={postsData} />
+        <CategoryPosts heading={category} data={blogs} />
       </div>
       <div className="col-12 p-0 col-md">
-        <TopPosts className="mt-5" />
+        <TopPosts className="mt-5" data={topBlogs} />
         <Advertisement
           style={{ height: '800px', marginTop: '118px' }}
           className="d-none d-md-flex"
