@@ -1,32 +1,12 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { Carousel } from 'react-bootstrap';
+import AppContext from '../store/app-context';
 import ImageArticle from './article-cards/ImageArticle';
 
-const galleryData = [
-  {
-    id: 'ts-001',
-    url: 'https://cdn.pixabay.com/photo/2016/10/14/19/21/canyon-1740973_960_720.jpg',
-    title: 'Title of vertical gallery',
-    category: 'Travel',
-    date: 'August 21 2021',
-  },
-  {
-    id: 'ts-002',
-    url: 'https://cdn.pixabay.com/photo/2018/05/04/07/55/snow-3373432_960_720.jpg',
-    title: 'The Sound cloud You loved is doomed',
-    category: 'Travel',
-    date: 'August 21 2021',
-  },
-  {
-    id: 'ts-003',
-    url: 'https://cdn.pixabay.com/photo/2015/12/29/14/51/mountains-1112911_960_720.jpg',
-    title: 'The Sound cloud You loved is doomed',
-    category: 'Travel',
-    date: 'August 21 2021',
-  },
-];
-
 const VerticalGallery = () => {
+  const ctx = useContext(AppContext);
+  const galleryData = ctx.getPrimaryGalleryBlogs();
+
   const articles = galleryData.map((data) => (
     <ImageArticle {...data} align="left" />
   ));

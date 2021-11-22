@@ -12,6 +12,8 @@ const AppContext = React.createContext({
   getRelatedBlogs: (authorid, blogid) => {},
   getLatestBlogs: () => {},
   getSecondaryLatestBlogs: () => {},
+  getPrimaryGalleryBlogs: () => {},
+  getSecondaryGalleryBlog: () => {},
 });
 
 export const AppProvider = (props) => {
@@ -57,6 +59,17 @@ export const AppProvider = (props) => {
       })
       .slice(0, 3);
 
+  const getPrimaryGalleryBlogs = () =>
+    blogs
+      .filter((blog) => blog.badges.includes('gallery'))
+      .sort((a, b) => +b.likes - +a.likes)
+      .slice(0, 3);
+
+  const getSecondaryGalleryBlog = () =>
+    blogs
+      .filter((blog) => blog.badges.includes('gallery'))
+      .sort((a, b) => +b.likes - +a.likes)[3];
+
   return (
     <AppContext.Provider
       value={{
@@ -69,6 +82,8 @@ export const AppProvider = (props) => {
         getRelatedBlogs: getRelatedBlogs,
         getLatestBlogs: getLatestBlogs,
         getSecondaryLatestBlogs: getSecondaryLatestBlogs,
+        getPrimaryGalleryBlogs: getPrimaryGalleryBlogs,
+        getSecondaryGalleryBlog: getSecondaryGalleryBlog,
       }}
     >
       {props.children}

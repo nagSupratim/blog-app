@@ -404,5 +404,385 @@
     "badges": ["bollywood", "drama", "family", "sport"],
     "likes": "365",
     "author": "sn1637324823541"
+  },
+  {
+    "id": "tv1629484200000",
+    "url": "https://cdn.pixabay.com/photo/2016/10/14/19/21/canyon-1740973_960_720.jpg",
+    "title": "Closer to the Canyon",
+    "gist": "The movement of rivers, the processes of weathering and erosion, and tectonic activity create canyons",
+    "summary": "A canyon is a deep, narrow valley with steep sides. “Canyon” comes from the Spanish word cañon, which means “tube” or “pipe.” The term “gorge” is often used to mean “canyon,” but a gorge is almost always steeper and narrower than a canyon.",
+    "category": "travel",
+    "date": "21 August 2021",
+    "contents": [
+      {
+        "type": "pg",
+        "content": "Canyons are like silent journals of an area’s history over thousands or even millions of years. By studying the exposed layers of rock in a canyon wall, experts can learn about how the climate changed, what kind of organisms were alive at certain times, and perhaps even how the canyon may change in the future."
+      },
+      {
+        "type": "pg",
+        "content": "For example, geologists studying layers of rock in the Columbia River Gorge, in the U.S. states of Washington and Oregon, discovered that the oldest rocks there are at least 17 million years old. They also found out the rocks are dark-black basalt, made from hardened lava. From this, geologists determined that the rocks formed when volcanoes erupted and their lava spilled out onto the land. Over millions of years, the Columbia River and Ice Age glaciers cut through the area and exposed its volcanic beginnings."
+      },
+      {
+        "type": "pg",
+        "content": "Canyons are also important to paleontology, or the study of fossils. Fossils are often best preserved in dry, hot areas. Since canyons usually form under the same conditions, they are good places to examine fossils."
+      },
+      {
+        "type": "ig",
+        "url": "https://cdn.pixabay.com/photo/2016/11/29/02/23/cliffs-1866832_960_720.jpg"
+      },
+      {
+        "type": "pg",
+        "content": "The layers of sediment revealed by a canyon can make it easier to date fossils. For example, a new area of dinosaur tracks was discovered in the U.S. state of Utah at Glen Canyon National Recreation Area in 2009. These tracks reveal new information about a group of dinosaurs called ornithopods. Paleontologists analyzed the layers of rock surrounding the fossils to estimate how old they were. These new dinosaur tracks show that ornithopods were alive 20 million years earlier than scientists thought."
+      },
+      {
+        "type": "pg",
+        "content": "Geologists study canyons to determine how the landscape will change in the future. The erosion patterns and thickness of different layers can reveal the climate during different years. A series of very dry years will have very thin layers of rock, when little erosion took place. The overall pattern of erosion and layering reveals the rate of water flow, from both the river and rain, through a canyon."
+      },
+      {
+        "type": "pg",
+        "content": "Geologists estimate that the Grand Canyon, for example, is being eroded at a rate of 0.3 meters (1 foot) every 200 years. The Colorado Plateau, the geologic area where the Grand Canyon is located, is a very stable area. Geologists expect the Grand Canyon to continue to deepen as long as the Colorado River flows."
+      }
+    ],
+    "time": "6",
+    "badges": ["travel", "canyon", "mountain", "gallery"],
+    "likes": "1579",
+    "author": "sn1637324823541"
+  },
+  {
+    "id": "tv1611167400000",
+    "url": "https://cdn.pixabay.com/photo/2018/05/04/07/55/snow-3373432_960_720.jpg",
+    "title": "A Winter wonderland",
+    "gist": "Winters mean freezing breeze and chills in most parts of the world, but there are some places which take a snowy avatar and turn into miles of visual delight",
+    "summary": "Jokul is an Icelandic word that refers to a mountain always covered in snow and ice. The OED says the word comes from the Icelandic jökull, “icicle.” The English icicle is related. onding.",
+    "category": "travel",
+    "date": "21 January 2021",
+    "contents": [
+      {
+        "type": "pg",
+        "content": "We tend to associate winter with bleak, gray skies and runny noses, but there's a beautiful side to the season that often gets overlooked. We're talking about Italian mountains covered with snow, pristine frozen lakes, and English cottages that put Norman Rockwell paintings to shame. And while we encourage exploring these destinations any time of the year, we won't judge if you want to walk through some winter wonderlands from behind your (warm) computer screen. So grab a mug of hot chocolate and forget about summer for a little while."
+      },
+      {
+        "type": "pg",
+        "content": "Here are top two winter wonderlans around the world"
+      },
+      {
+        "type": "hd",
+        "content": "Banff National Park, Canada"
+      },
+      {
+        "type": "pg",
+        "content": "Easily one of the most beautiful winter wonderlands in Canada, Banff National Park overwhelms with views of the Canadian Rockies and regular cast of wildlife. The park's star attraction is glacial Lake Louise, which looks even more spectacular once it freezes over."
+      },
+      {
+        "type": "ig",
+        "url": "https://media.cntraveler.com/photos/5c1bf713a546ef283d2173ea/master/w_1920%2Cc_limit/Banff-National-Park_Canada_GettyImages-727140619.jpg"
+      },
+      {
+        "type": "hd",
+        "content": "Antarctica"
+      },
+      {
+        "type": "pg",
+        "content": "There are few places (if any) more stunning than the world's southernmost continent. Although 99 percent of Antarctica is covered with ice, the landscape still manages to be amazingly diverse—surreal blue glaciers, active volcanoes, the rough waterways of the Drake Passage, and 360-degree views of untouched snow. And those views are made even better when an emperor penguin or humpback whale makes an appearance."
+      },
+      {
+        "type": "ig",
+        "url": "https://media.cntraveler.com/photos/5e066b84182d5300085dd723/master/w_1920%2Cc_limit/Antarctica-winter-wonderlands-GettyImages-156709702.jpg"
+      },
+      {
+        "type": "hd",
+        "content": "Bryce Canyon National Park, Utah"
+      },
+      {
+        "type": "pg",
+        "content": "Bryce Canyon National Park welcomes most of its visitors from spring to fall, but those travelers are seriously missing out. Skirt the crowds and visit during the winter, when you can participate in ranger-led snowshoe hikes and winter astronomy programs. Plus, you'll get to see those famous hoodoos in their best environment—peeking through a blanket of snow."
+      },
+      {
+        "type": "ig",
+        "url": "https://media.cntraveler.com/photos/5e066b91d760ba0008eaf867/master/w_1920%2Cc_limit/Bryce-Canyon-winter-wonderlands-GettyImages-1158015759.jpg"
+      },
+      { "type": "pg", "content": "" }
+    ],
+    "time": "5",
+    "badges": ["snow", "winter", "mountain", "travel", "gallery"],
+    "likes": "1235",
+    "author": "sn1637324823541"
+  },
+  {
+    "id": "tv1608748200000",
+    "url": "https://cdn.pixabay.com/photo/2015/12/29/14/51/mountains-1112911_960_720.jpg",
+    "title": "The Sound cloud You loved is doomed",
+    "gist": "These geological formations are created by running rivers and shifting glaciers.",
+    "summary": "Valleys are depressed areas of land–scoured and washed out by the conspiring forces of gravity, water, and ice. Some hang; others are hollow. They all take the form of a 'U' or 'V.'",
+    "category": "travel",
+    "date": "24 December 2020",
+    "contents": [
+      {
+        "type": "pg",
+        "content": "Rivers and streams make most primary valley cuts, carving steep-walled sides and a narrow floor that from afar looks like the letter 'V.' The gradient of the river—how quickly it drops—helps define the steepness of the sides and the width of the floor. Mountain valleys, for example, tend to have near-vertical walls and a narrow channel, but out on the plains, the slopes are shallow and the channel is wide."
+      },
+      {
+        "type": "pg",
+        "content": "As waters wind toward the sea, they add to natural twists in the land by stripping sediment from the outsides of bends and dumping it on the insides. The bulk of the rock and dirt is dredged from the bottom of the channel, a process called down cutting that can ultimately lead to deep, slender chasms like Black Canyon in Colorado's Gunnison National Park."
+      },
+      {
+        "type": "ig",
+        "url": "https://cdn.pixabay.com/photo/2016/11/21/17/02/adventure-1846482__340.jpg"
+      },
+      {
+        "type": "pg",
+        "content": "The massive blocks of snow and ice slowly creep downhill where they will meet the least resistance: valleys already cut by rivers and streams. As the glaciers ooze, they pick up rocks and grind away at the valley floor and sides, pressing the 'V' into a 'U.' When the glacier melts, a U-shaped valley marks the spot where the snow and ice once flowed."
+      },
+      {
+        "type": "pg",
+        "content": "Side valleys are formed by tributaries to streams and rivers and feed the main stem. Where the main channel is carved deeper than the tributary, as commonly occurs during glaciations, the side valleys are left hanging. Waterfalls often cascade from the outlet of the upper valley into the drainage below."
+      }
+    ],
+    "time": "3",
+    "badges": ["mountain", "travel", "valley", "gallery"],
+    "likes": "1106",
+    "author": "sn1637324823541"
+  },
+  {
+    "id": "tv1630780200000",
+    "url": "https://cdn.pixabay.com/photo/2019/11/12/13/38/wanderer-4621118_960_720.jpg",
+    "title": "The Wanderer",
+    "gist": "The joy of discovery is the single most important thing in life. Don’t forget it.",
+    "summary": "As you move outside of your comfort zone, what was once the unknown and frightening becomes your new normal.",
+    "category": "travel",
+    "date": "5 September 2021",
+    "contents": [
+      {
+        "type": "pg",
+        "content": "I have never in my life claimed to be an adventurer or outdoors lover – until I started hiking in the mountains. With the lovely, lush green forests and foothills, the tantalizing teal lakes hidden away like a secret prize waiting to be found, and those stunning sky-high jagged peaks, it was love at first sight. But more than that, hiking in the mountains became an immediate passion because of the way it made me feel. I was able to just be the real me and connect with the version of myself that felt the most authentic and true."
+      },
+      {
+        "type": "pg",
+        "content": "Being surrounded by the mountains has a powerful effect on something deeper. It’s as if being amidst something greater than ourselves, changes our perspective and insight on life and the things that really matter. Somehow without trying, you are able to confront your demons, re-evaluate your problems or your goals or your desires – you are able to widen your perspective and reflect on ‘the big picture’."
+      },
+      {
+        "type": "ig",
+        "url": "https://cdn.pixabay.com/photo/2021/07/03/21/22/mountains-6384895_960_720.jpg"
+      },
+      {
+        "type": "pg",
+        "content": "Call me crazy or cliche or what ever..but there is no denying it. Maybe it’s that dose of fresh mountain air, the exercise or the litres of water I drink when I’m hiking, but I swear to you that after a visit to the mountains I feel enormously better. It’s as if there is an energy source in those summits that you can tap into and feed off of. Getting out there literally fuels you and rebalances you; you will notably feel more calm and happy, and less irritable or anxious. There was never a time that I left the mountains without feeling refreshed, happy and inspired – ready to take on anything that came my way."
+      },
+      {
+        "type": "ig",
+        "url": "https://cdn.pixabay.com/photo/2021/04/05/18/19/hiking-6154252_960_720.jpg"
+      },
+      {
+        "type": "pg",
+        "content": "Through challenging yourself, both physically and mentally, you grow. Through pushing yourself outside of your comfort zone and getting out there, you flourish. Through completing something you started and seeing it through to the end, you make progress. Through getting lost or falling down or failing to summit a climb, you learn to not only be kind to yourself knowing you TRIED your best, but you blossom into a more humble person! Through interacting with nature and wildlife, you develop respect for the earth and empathy for the wellbeing of the environment and of the animals."
+      }
+    ],
+    "time": "4",
+    "badges": ["mountain", "travel", "gallery", "adventure"],
+    "likes": "968",
+    "author": "sn1637324823541"
+  },
+  {
+    "id": "tv1581445800000",
+    "url": "https://5.imimg.com/data5/BO/LE/MY-49816442/sandakphu-phalut-trek-500x500.jpg",
+    "title": "Trekkies Wonderland - Sandakphu",
+    "gist": "If you are a trekking enthusiast, you cannot simply miss out on the Sandakphu Trek for sure.",
+    "summary": "The mesmerizing Sandakphu Trek is located in Darjeeling at the West Bengal-Nepal border. Boasting a height of 3665 m, the cliff is located at the Ilam district of Nepal. The trail is quite easy to traverse. So beginners can choose to trek through Sandakphu without any fear.",
+    "category": "travel",
+    "date": "12 February 2020",
+    "contents": [
+      {
+        "type": "pg",
+        "content": "Reaching this place is quite an easy thing. Also, it depends on the place where you start it. You can take a flight or a train to reach the main city of Darjeeling. If you prefer flight transport, you can book your tickets and reach Bagdogra Airport. Once you reach, hire a taxi or book a train to reach New Jalpaiguri."
+      },
+      {
+        "type": "pg",
+        "content": "Day 1 : On your first day, you will reach New Jalpaiguri by train or by road. Post your arrival, you will be taken to the starting point of the trek, Manebhanjan. It is a quick 4-hour ride from New Jalpaiguri to Manebhanjan."
+      },
+      {
+        "type": "ig",
+        "url": "https://pickyourtrail.com/blog/wp-content/uploads/2020/08/photo-1545652985-5edd365b12eb.jpg"
+      },
+      {
+        "type": "pg",
+        "content": "Day 2 : The actual trekking expedition starts on the second day. Your day kick starts with a walk to cover 11 km. On your way, you will visit places like Tumling, which is one of the most beautiful places in the Singalila Range. This is a beautiful 9500 ft peak where you can also relish a tongue-tingling breakfast."
+      },
+      {
+        "type": "pg",
+        "content": "Day 3 : On the third day of your memorable trekking journey, you will cover 9 km by walk which will take around 5 hours to finish. After successful completion of this 9 km trek, you will reach Singalila National Park and Kalipokhri. Also, do not miss taking amazing pictures of the natural scenery while walking through this park. Stay at this beautiful spot for one night and resume your journey the next morning."
+      },
+      {
+        "type": "ig",
+        "url": "https://northbengaltourism.com/images/offbeat/sandakphu_780.jpg"
+      },
+      {
+        "type": "pg",
+        "content": "Day 4 : On your penultimate day, you will cover a distance of 8km. Once you finish this walk, you will step into heaven. How excited are you to witness Sandakphu Peak, Mt Khangchendzonga, Mt Everest from one point? This will truly be an eye-opening moment of your entire life. Enjoy the moment for you will never get to experience such an amazing view anywhere else."
+      },
+      {
+        "type": "pg",
+        "content": "Day 5 : Now, it’s time to say goodbye to the beautiful Sandakphu trek and your fellow mates. While returning, you can visit places like Srikhola and Gurdum if you have enough time. Once you reach Srikhola, hit the road to reach New Jalpaiguri and get back to home."
+      },
+      {
+        "type": "ig",
+        "url": "https://www.nomadicweekends.com/wp-content/uploads/2019/02/dsc_1066_Main_800.jpg"
+      },
+      {
+        "type": "pg",
+        "content": "Leaving the place will probably be the hardest part of your entire trekking experience. Also, It is believed that nature teaches you a lot more than what you learn in schools. Listen to the music of hummingbirds and gushing water bodies. If you are a nature lover, do not miss out on the Sandakphu Trek."
+      }
+    ],
+    "time": "10",
+    "badges": ["mountain", "trek", "adventure", "travel"],
+    "likes": "2350",
+    "author": "sn1637324823541"
+  },
+  {
+    "id": "tv1584210600000",
+    "url": "https://www.tripexperienceblog.com/wp-content/uploads/2018/04/hampta-trek-1.jpg",
+    "title": "Hampta Pass - A Dramatic Crossover",
+    "gist": "Standing on the top of the pass, what’s ahead and behind are two different worlds. It changes in a matter of minutes.",
+    "summary": "At 14,000 feet Hampta Pass in Himachal Pradesh falls under those rare, dramatic pass crossings in the Himalayas. On one side is the lush green valley of Kullu — with forests, grasslands, and flowers blooming on the side of your trail. On the other is the almost arid, stark landscape of Lahaul, with barren mountains and almost no vegetation.",
+    "category": "travel",
+    "date": "15 March 2020",
+    "contents": [
+      {
+        "type": "pg",
+        "content": "Simply put, the Hampta Pass is Himachal’s Valley of Flowers. The landscape is strikingly similar to that of Valley of Flowers – a green narrow valley protected by snow-covered mountains – but there’s an added bonus here."
+      },
+      {
+        "type": "pg",
+        "content": "When you get onto the other side of the Hampta Pass, you’ll be in awe looking at the stark contrast from what you just left behind. The landscape that stretches in front of you is Spiti Valley, known for its barren stretches, rugged terrain and forget-me-not blue skies."
+      },
+      {
+        "type": "ig",
+        "url": "https://togedr.com/blog/wp-content/uploads/2019/04/Chandratal-1024x683.jpg"
+      },
+      {
+        "type": "pg",
+        "content": "What makes the dramatic changes heightened, even more, is how thrilling the climb to Hampta Pass is. For trekkers, crossing the Hampta Pass (even without the scenery changes) is a great story of adventure. They will love the nervous excitement of climbing to the pass over many ledges, almost appearing to get to the pass, but never really sure until you get there"
+      },
+      {
+        "type": "pg",
+        "content": "On this trek, you move from one side to the other over a period of 6 days, covering 25 km."
+      }
+    ],
+    "time": "5",
+    "badges": ["mountain", "travel", "trek", "adventure"],
+    "likes": "3560",
+    "author": "sn1637324823541"
+  },
+  {
+    "id": "tv1589653800000",
+    "url": "https://static2.tripoto.com/media/filter/tst/img/186426/TripDocument/1574248968_sham_valley_4_e1560239064414.jpg",
+    "title": "Zanskar Valley | The dramatic vista",
+    "gist": "It is a unique blend of time-honoured Tibetan culture and modern-day practices. ",
+    "summary": "It is a town of sharp contrasts as it is an ideal destination for high spirit travellers, nature lovers, adventure seekers and a spot for a kicked-back vacation. The air is wonderfully clean and the unspoilt landscapes make the land remain ripe for cherished adventures and exploration",
+    "category": "travel",
+    "date": "17 May 2020",
+    "contents": [
+      {
+        "type": "pg",
+        "content": "The summer month from April to Mid September proves to be the best time to visit the Zanskar valley. The brutally cold winters in these months are replaced by midnight sun in the summers. The climate is most energizing at this time and also obliging as the snow would have softened. In these months, there is a buzz of movement with tourists flying in for sightseeing and to be a part of the festivities in the valley. The average temperature ranges between a minimum of 10° C to a maximum of 20° C. This also states that the summers here are cool and pleasant unlike the scorching heat experienced by the rest of the country."
+      },
+      {
+        "type": "pg",
+        "content": "Chadar Trek, Also known as the frozen river trek, this experience is one of its kinds in the world. If you are visiting the valley in the winter months then embarking on this trek is a must. The trail takes you to an elevation of 10,000 to 11,000 feet and you must be healthy and fit if you wish to indulge in this adventure activity"
+      },
+      {
+        "type": "ig",
+        "url": "http://cdn.cnn.com/cnnnext/dam/assets/150910142728-chadar-trek-rapids.jpg"
+      },
+      {
+        "type": "pg",
+        "content": "Pensi La Pass, Rich with blue-green water springs, medicinal plants and an unparalleled view of the surrounding mountains, the pass creates a lovely sight for visitors. It is accessible only in the months of May to September and observes heavy snowfall during the rest of the months. You will be able to spot rare wildlife as well."
+      },
+      {
+        "type": "ig",
+        "url": "https://www.ekashmirtourism.com/blog/wp-content/uploads/2020/04/pensi-la-pass.jpg"
+      },
+      {
+        "type": "pg",
+        "content": "Rangdum, an elliptically shaped plateau that is situated at an elevation of 3657 metres. You can take a day out of your itinerary to visit this place. Colourful hills and dazzling white glaciers flank it. The region is a charming site and you will also be able to see the only accessible glacier to people- the Drang-drung glacier from this region."
+      },
+      {
+        "type": "ig",
+        "url": "https://www.ekashmirtourism.com/blog/wp-content/uploads/2020/04/rangdum-monastery.jpg"
+      },
+      {
+        "type": "pg",
+        "content": "Contrary to Zanskar and its rugged landscapes, the Suru valley will enchant you will full bloom and lush greenery. It is most visited by adventure enthusiasts as it is the starting point for rafting trips and other mountain expeditions. The tourism activity is very limited here and you can hence make most of your trip by avoiding the crowd."
+      }
+    ],
+    "time": "9",
+    "badges": ["mountain", "travel", "valley"],
+    "likes": "1265",
+    "author": "sn1637324823541"
+  },
+  {
+    "id": "tc",
+    "url": "",
+    "title": "",
+    "gist": "",
+    "summary": "",
+    "category": "",
+    "date": "",
+    "contents": [
+      { "type": "pg", "content": "" },
+      { "type": "pg", "content": "" },
+      { "type": "pg", "content": "" },
+      { "type": "pg", "content": "" },
+      { "type": "pg", "content": "" },
+      { "type": "pg", "content": "" },
+      { "type": "ig", "url": "" }
+    ],
+    "time": "",
+    "badges": [],
+    "likes": "",
+    "author": "sn1637324823541"
+  },
+  {
+    "id": "tc",
+    "url": "",
+    "title": "",
+    "gist": "",
+    "summary": "",
+    "category": "",
+    "date": "",
+    "contents": [
+      { "type": "pg", "content": "" },
+      { "type": "pg", "content": "" },
+      { "type": "pg", "content": "" },
+      { "type": "pg", "content": "" },
+      { "type": "pg", "content": "" },
+      { "type": "pg", "content": "" },
+      { "type": "ig", "url": "" }
+    ],
+    "time": "",
+    "badges": [],
+    "likes": "",
+    "author": "sn1637324823541"
+  },
+  {
+    "id": "tc",
+    "url": "",
+    "title": "",
+    "gist": "",
+    "summary": "",
+    "category": "",
+    "date": "",
+    "contents": [
+      { "type": "pg", "content": "" },
+      { "type": "pg", "content": "" },
+      { "type": "pg", "content": "" },
+      { "type": "pg", "content": "" },
+      { "type": "pg", "content": "" },
+      { "type": "pg", "content": "" },
+      { "type": "ig", "url": "" }
+    ],
+    "time": "",
+    "badges": [],
+    "likes": "",
+    "author": "sn1637324823541"
   }
 ]

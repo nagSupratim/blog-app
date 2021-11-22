@@ -1,4 +1,4 @@
-import React, { useContext, useEffect } from 'react';
+import React, { useContext } from 'react';
 import AppContext from '../../store/app-context';
 import Advertisement from '../Advertisement';
 import LatestArticles from '../LatestArticles';
@@ -13,7 +13,10 @@ const HomeComponent = () => {
   const blogs = ctx.blogs;
   const topBlogs = ctx.getTopBlogs();
   const latestBlogs = ctx.getLatestBlogs();
-  const secondaryLatestBlogs = ctx.getSecondaryLatestBlogs();
+  const secondaryLatestBlogs = {
+    blogs: ctx.getSecondaryLatestBlogs(),
+    gallery: ctx.getSecondaryGalleryBlog(),
+  };
 
   if (!blogs) return <p>fallback</p>;
 

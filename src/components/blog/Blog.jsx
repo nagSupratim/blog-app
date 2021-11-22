@@ -12,14 +12,16 @@ import {
   YoutubeIcon,
 } from '../ui/icons/icons';
 import UserCard from '../user/UserCard';
+import Fallback from '../../pages/Fallback';
 
 import classes from './Blog.module.css';
 import MoreContent from './MoreContent';
 
 const Blog = (props) => {
   const ctx = useContext(AppContext);
+
   const blog = ctx.getBlog(props.id);
-  if (!blog) return <p>fallback</p>;
+  if (!blog) return <Fallback />;
 
   return (
     <div className={`d-flex flex-column gap-5 mt-5 ${classes.blog}`}>
@@ -46,8 +48,11 @@ const Blog = (props) => {
             {blog.contents.map((content, i) => {
               if (content.type === 'pg')
                 return <p key={i}>{content.content}</p>;
+              if (content.type === 'hd')
+                return <h3 key={i}>{content.content}</h3>;
               if (content.type === 'ig')
                 return <img src={content.url} alt={blog.title} key={i}></img>;
+              return null;
             })}
           </div>
           <div className={classes.badges}>

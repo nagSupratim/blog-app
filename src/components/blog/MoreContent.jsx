@@ -7,33 +7,6 @@ import UserCard from '../user/UserCard';
 
 import classes from './MoreContent.module.css';
 
-const contentData = [
-  {
-    id: 'ts-018',
-    url: 'https://cdn.pixabay.com/photo/2020/04/22/12/05/adventure-5077752_960_720.jpg',
-    title: 'Joshua Tree Overnight Adventure',
-    tag: 'Also tagged Reactjs',
-    date: 'Aug 10',
-    minutes: '4',
-  },
-  {
-    id: 'ts-019',
-    url: 'https://cdn.pixabay.com/photo/2021/07/17/20/02/road-6473967_960_720.jpg',
-    title: 'Joshua Tree Overnight Adventure',
-    tag: 'Related reads',
-    date: 'Aug 10',
-    minutes: '4',
-  },
-  {
-    id: 'ts-020',
-    url: 'https://cdn.pixabay.com/photo/2016/10/20/17/41/hot-air-balloon-1756150_960_720.jpg',
-    title: 'Joshua Tree Overnight Adventure',
-    tag: 'Related reads',
-    date: 'Aug 10',
-    minutes: '4',
-  },
-];
-
 const MoreContent = (props) => {
   const ctx = useContext(AppContext);
   const [blogs, setBlogs] = useState(null);
