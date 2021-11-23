@@ -11,8 +11,6 @@ const MoreContent = (props) => {
   const ctx = useContext(AppContext);
   const [blogs, setBlogs] = useState(null);
 
-  console.log(ctx.getRelatedBlogs(props.user.id, props.blogId));
-
   useEffect(() => {
     setBlogs(ctx.getRelatedBlogs(props.user.id, props.blogId));
   }, [ctx, props.user.id, props.blogId]);
@@ -33,6 +31,7 @@ const MoreContent = (props) => {
                   title={data.title}
                   url={data.url}
                   heightauto={true}
+                  id={data.id}
                 />
                 <div className="d-flex">
                   <div className={classes.user}>

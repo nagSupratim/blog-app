@@ -12,7 +12,7 @@ const SingleBlog = () => {
       left: 0,
       behavior: 'smooth',
     });
-  }, []);
+  }, [blogID]);
 
   return <Blog id={blogID} />;
 };

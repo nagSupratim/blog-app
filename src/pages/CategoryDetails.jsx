@@ -7,13 +7,7 @@ import TopPosts from '../components/TopPosts';
 import AppContext from '../store/app-context';
 import Fallback from './Fallback';
 
-const validCategories = [
-  'bollywood',
-  'technology',
-  'travel',
-  'food',
-  'fitness',
-];
+const validCategories = ['bollywood', 'technology', 'travel', 'food'];
 
 const CategoryDetails = () => {
   const ctx = useContext(AppContext);
@@ -44,7 +38,7 @@ const CategoryDetails = () => {
       <div className="col-12 p-0 col-md">
         <TopPosts className="mt-5" data={topBlogs} />
         <Advertisement
-          style={{ height: '800px', marginTop: '118px' }}
+          style={{ height: '800px', marginTop: '118px', marginBottom: '100px' }}
           className="d-none d-md-flex"
         />
       </div>

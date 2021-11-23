@@ -720,69 +720,512 @@
     "author": "sn1637324823541"
   },
   {
-    "id": "tc",
-    "url": "",
-    "title": "",
-    "gist": "",
-    "summary": "",
-    "category": "",
-    "date": "",
+    "id": "tc1548613800000",
+    "url": "https://miro.medium.com/max/1400/1*1Z177dpTeAp7uEFc5Zx2xg.png",
+    "title": "Animate a React app using CSS Method",
+    "gist": "Animation in ReactJs app is a popular topic and there are many ways to create different types of animations",
+    "summary": "Many developers create animation exclusively using css and adding classes to HTML tags. This is a great way and you should use it. If you want to create complex animations you can pay attention to GreenSock. GreenSock is the most powerful animation platform. There are also a lot of libraries, components for creating animation in React.",
+    "category": "technology",
+    "date": "28 January 2019",
     "contents": [
-      { "type": "pg", "content": "" },
-      { "type": "pg", "content": "" },
-      { "type": "pg", "content": "" },
-      { "type": "pg", "content": "" },
-      { "type": "pg", "content": "" },
-      { "type": "pg", "content": "" },
-      { "type": "ig", "url": "" }
+      {
+        "type": "pg",
+        "content": "Animation in ReactJs app is a popular topic and there are many ways to create different types of animations.Many developers create animation exclusively using css and adding classes to HTML tags. This is a great way and you should use it. If you want to create complex animations you can pay attention to GreenSock. GreenSock is the most powerful animation platform. There are also a lot of libraries, components for creating animation in React.Let’s talk about them"
+      },
+      { "type": "hd", "content": "CSS method" },
+      {
+        "type": "pg",
+        "content": "This method is one of the best for a simple animation. When you use it instead of importing javascript libraries, your bundle remains small. And browser spends fewer resources. These two points also largely impact app productivity. If you have a simple animation and worry about the size of your bundle pay attention to this method."
+      },
+      {
+        "type": "ig",
+        "url": "https://miro.medium.com/max/2400/1*08y12Sp1d9cLSKE9nz1EaA.png"
+      },
+      { "type": "pg", "content": "And css styles:" },
+      {
+        "type": "ig",
+        "url": "https://miro.medium.com/max/700/1*nZ6Mq1wmqu8JSF-DfebeVw.png"
+      },
+      {
+        "type": "pg",
+        "content": "Believe me, it’s necessary to use this method in most situations. We are better off writing several css lines and triggering the className than importing big libraries and implementing it in your projects. The users will be grateful to you that your browser reproduces app quickly."
+      }
     ],
-    "time": "",
-    "badges": [],
-    "likes": "",
+    "time": "8",
+    "badges": ["technology", "react", "javascript"],
+    "likes": "279",
     "author": "sn1637324823541"
   },
   {
-    "id": "tc",
-    "url": "",
-    "title": "",
-    "gist": "",
-    "summary": "",
-    "category": "",
-    "date": "",
+    "id": "tc1608143400000",
+    "url": "https://s3.amazonaws.com/a.storyblok.com/f/86602/1024x683/034394d990/react-widget.jpg",
+    "title": "Iframes with React",
+    "gist": "Learn how to use Iframes with React following the best practices for Security and Performance",
+    "summary": "Today it’s challenging to find standalone web apps. We can find most of these apps work with each other where the integrations happen either from the frontend or backend. When looking at these integrations, one of the oldest yet simple integration strategy is using Iframes.",
+    "category": "technology",
+    "date": "17 December 2020",
     "contents": [
-      { "type": "pg", "content": "" },
-      { "type": "pg", "content": "" },
-      { "type": "pg", "content": "" },
-      { "type": "pg", "content": "" },
-      { "type": "pg", "content": "" },
-      { "type": "pg", "content": "" },
-      { "type": "ig", "url": "" }
+      {
+        "type": "pg",
+        "content": "Though it’s easy to embed an Iframe into your React app, making it secure, fast, and reliable requires specific expertise. Therefore, it’s essential to understand the best practices around using Iframes with React."
+      },
+      { "type": "hd", "content": "Can We Add Any URL to SRC Attribute?" },
+      {
+        "type": "pg",
+        "content": "As an experiment, I’ve used YouTube to embed a video into a React app. When I copy-paste a YouTube video link directly into the Iframe, it threw an error saying “www.youtube.com refused to connect.” To embed a YouTube video to an Iframe, I had to use their embed URLs."
+      },
+      { "type": "hd", "content": "Verify the X-Frame-Options" },
+      {
+        "type": "pg",
+        "content": "Suppose you closely observe the error in Chrome Dev Tools. In that case, you can find that YouTube prevents the loading of their direct URLs (Not the embeddable one) by using X-Frame-Options set to “same-origin” returning in the HTTP Header from YouTube servers."
+      },
+      {
+        "type": "ig",
+        "url": "https://miro.medium.com/max/555/1*eA-DK3p3sOOLNw9au6RmNA.png"
+      },
+      {
+        "type": "pg",
+        "content": "Therefore, we must embed only URLs that are advertised as embeddable. Otherwise, even if it works initially (Unlike the case of YouTube), these could get blocked without your knowledge using X-Frame-Options."
+      },
+      {
+        "type": "pg",
+        "content": "And I hope it’s clear that adding any URL into an Iframe doesn’t work with React or any other frontend library or framework unless the embedding site allows your web app domain to embed it."
+      }
     ],
-    "time": "",
-    "badges": [],
-    "likes": "",
+    "time": "8",
+    "badges": ["technology", "react", "iframe", "javascript"],
+    "likes": "156",
     "author": "sn1637324823541"
   },
   {
-    "id": "tc",
-    "url": "",
-    "title": "",
-    "gist": "",
-    "summary": "",
-    "category": "",
-    "date": "",
+    "id": "tc1603737000000",
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3izWC18O9auxsfDiWXYSr6jK2HGN0ilI4mA&usqp=CAU",
+    "title": "How to Install React.js with create-react-app",
+    "gist": "How to install and run a React application the easy way.",
+    "summary": "As a Frontend Developer, I have personally worked with React in my projects and probably will continue to work with it in the future. One of the steps that many people struggle with is the installation/configuration process of React.",
+    "category": "technology",
+    "date": "27 October 2020",
     "contents": [
-      { "type": "pg", "content": "" },
-      { "type": "pg", "content": "" },
-      { "type": "pg", "content": "" },
-      { "type": "pg", "content": "" },
-      { "type": "pg", "content": "" },
-      { "type": "pg", "content": "" },
-      { "type": "ig", "url": "" }
+      {
+        "type": "pg",
+        "content": "As a Frontend Developer, I have personally worked with React in my projects and probably will continue to work with it in the future. One of the steps that many people struggle with is the installation/configuration process of React."
+      },
+      {
+        "type": "pg",
+        "content": "So let's start with the basics. In this post, you are going to learn how to install and run a React application the easy way."
+      },
+      {
+        "type": "pg",
+        "content": "First of all, you are going to need NPM (or Yarn, alternatively). So download and install it first."
+      },
+      { "type": "hd", "content": "What is create-react-app?" },
+      {
+        "type": "pg",
+        "content": "Since it is complicated and takes a lot of time, we don't want to configure React manually. create-react-app is a much easier way which does all the configuration and necessary package installations for us automatically and starts a new React app locally, ready for development."
+      },
+      {
+        "type": "pg",
+        "content": "Another advantage of using create-react-app is that you don't have to deal with Babel or Webpack configurations. All of the necessary configurations will be made by create-react-app for you."
+      },
+      {
+        "type": "pg",
+        "content": "According to the React documentation, create-react-app is one of the officially supported ways to create single-page applications in React."
+      },
+      { "type": "hd", "content": "How to Install Create-React-App" },
+      {
+        "type": "pg",
+        "content": "In order to install your app, first go to your workspace (desktop or a folder) and run the following command:"
+      },
+      {
+        "type": "ig",
+        "url": "https://cdn.jsdelivr.net/gh/facebook/create-react-app@27b42ac7efa018f2541153ab30d63180f5fa39e0/screencast.svg"
+      },
+      {
+        "type": "pg",
+        "content": "The installation process may take a few minutes. After it is done, you should see a folder that appears in your workspace with the name you gave to your app."
+      },
+      {
+        "type": "pg",
+        "content": "After the installation is completed, change to the directory where your app was installed:"
+      },
+      {
+        "type": "pg",
+        "content": "and finally run npm start to see your app live on localhost:"
+      }
     ],
-    "time": "",
-    "badges": [],
-    "likes": "",
+    "time": "9",
+    "badges": ["technology", "react", "javascript"],
+    "likes": "985",
+    "author": "sn1637324823541"
+  },
+  {
+    "id": "tc1541615400000",
+    "url": "https://miro.medium.com/max/2000/1*41wlERdzz-n7jG_C3ZDesQ.jpeg",
+    "title": "What is Babel?",
+    "gist": "Babel is a JavaScript transpiler",
+    "summary": "Babel is a JavaScript transpiler that converts edge JavaScript(ES6) into plain old ES5 JavaScript that can run in any browser even in the old ones.",
+    "category": "technology",
+    "date": "8 November 2018",
+    "contents": [
+      {
+        "type": "pg",
+        "content": "Hello guys, Today I’m going to talk about “Babel” which is one of the hottest topics in the front-end-dev playground. Babel is a JavaScript transpiler that converts edge JavaScript(ES6) into plain old ES5 JavaScript that can run in any browser even in the old ones."
+      },
+      { "type": "hd", "content": "What is a transpiler?" },
+      {
+        "type": "pg",
+        "content": "Transpilers, or source-to-source compilers, are tools that read source code written in one programming language, and produce the equivalent code in another language which is in the same level."
+      },
+      { "type": "hd", "content": "What is transpiling then?" },
+      {
+        "type": "pg",
+        "content": "It is a process of taking one language & convert it in to another like you transpile your typescript into javascript and sass into css."
+      },
+      {
+        "type": "hd",
+        "content": "What is the difference between compiling & transpiling?"
+      },
+      {
+        "type": "pg",
+        "content": "Compiling convert one language to another at lower abstraction level like java to byte code while transpiling convert one language to another at same abstraction level like typescript to javascript or sass to css."
+      },
+      { "type": "hd", "content": "What is the reason for using babel?" },
+      {
+        "type": "pg",
+        "content": "Well, all the latest javascript features are not supported in every browser yet. So someone needs to do the converting part right? So babel is here to transpile latest javascript features(ES6 features) which are not understandable to every browser to ES5 which is understandable to every browser."
+      }
+    ],
+    "time": "4",
+    "badges": ["technology", "javascript", "es6"],
+    "likes": "206",
+    "author": "sn1637324823541"
+  },
+  {
+    "id": "tc1637173800000",
+    "url": "https://www.adhocsoftwares.com/wp-content/uploads/2021/02/Angular-Js-Vs-React-Js.jpg",
+    "title": "Angular vs React",
+    "gist": "Compare Angular vs React to over performance, maintainability, learning curve, and use cases to find out which one suits your needs better.",
+    "summary": "Choosing the right javascript frameworks is a real confusion. Especially when you have a lot of options that are super resourceful and capable of facilitating the project requirements. But choosing the one for the right set of projects demands knowledge of several critical aspects. We have covered some of the essential points in this post by making a fair comparison of Angular vs React.",
+    "category": "technology",
+    "date": "18 November 2021",
+    "contents": [
+      {
+        "type": "pg",
+        "content": "Selecting between the two frontend platforms like Angular vs React for the projects is a matter of debate. The reason why we call it a debate is because we want to minimize the confusion. Having said that, a good number of our clients ask us to suggest the best frontend framework. In case, you’re wondering the same, connect with our web development experts to discuss your project dimensions."
+      },
+      {
+        "type": "pg",
+        "content": "However, we cannot define best, but we can surely analyze which is better in which situations. In this blog, we are going to discuss the two most loved frontend frameworks. So, Angular or React? Let’s check it out."
+      },
+      { "type": "hd", "content": "What is Angular?" },
+      {
+        "type": "pg",
+        "content": "Angular is a development platform built on the typescript. It is a component-based framework for building scalable web apps. It has a collection of well-integrated libraries and features such as client-server communication, routing, and more. It has a suite of developer tools to develop and scale projects from single-developer size to enterprise-grade applications. Moreover, it’s constantly updated technology with its latest developments led by the Angular team at Google."
+      },
+      { "type": "hd", "content": "What is React?" },
+      {
+        "type": "pg",
+        "content": "React is an open-source JavaScript library used for frontend development. It is used for building user interface or UI components. Its component-based and declarative traits let developers create interactive and complex UIs easily. Developers can build fast and scalable apps for all platforms due to its “learn once write anywhere” principle. React is managed by Facebook and a community of individual developers and communities."
+      },
+      { "type": "hd", "content": "Angular vs React Comparison" },
+      {
+        "type": "pg",
+        "content": "Angular is a Javascript framework built using Typescript, while Reactjs is a Javascript library and built using JSX. Angular is mostly used to build complex enterprise-grade apps like single-page apps and progressive web apps, while React is used to build UI components in any app with frequently variable data. Angular’s learning curve is steeper due to its too many in-built functionalities while React’s smaller package size."
+      }
+    ],
+    "time": "7",
+    "badges": ["technology", "react", "javascript", "angular"],
+    "likes": "382",
+    "author": "sn1637324823541"
+  },
+  {
+    "id": "fd1596997800000",
+    "url": "https://1.bp.blogspot.com/-yVvD-Owz_yQ/X98CHoO3L5I/AAAAAAAAEnA/R2kD73T3_UQdQzv7kOmNABnMysRtC-o1ACLcBGAsYHQ/s2048/authentic%2Bbengali%2Bfood%2Bin%2Bkolkata%2Bbengali%2Bcuisine.jpg",
+    "title": "A GLIMPSE INTO BENGALI CUISINE, LIFESTYLE AND CULTURE",
+    "gist": "During our Kolkata food tour, our quest to understand the Bengali way of life a little more closely through its food, cultural anecdotes and references led us to the warm, genial and amusing company of a wonderful Bengali couple who were clearly ardent foodies.",
+    "summary": "During our Kolkata food tour, our quest to understand the Bengali way of life a little more closely through its food, cultural anecdotes and references led us to the warm, genial and amusing company of a wonderful Bengali couple who were clearly ardent foodies. Restaurateurs Piyali and Sunando Banerjee, have translated their passion into profession through their culinary venture named Hanglaatherium. ",
+    "category": "food",
+    "date": "10 August 2020",
+    "contents": [
+      {
+        "type": "pg",
+        "content": "During our Kolkata food tour, our quest to understand the Bengali way of life a little more closely through its food, cultural anecdotes and references led us to the warm, genial and amusing company of a wonderful Bengali couple who were clearly ardent foodies. Restaurateurs Piyali and Sunando Banerjee, have translated their passion into profession through their culinary venture named Hanglaatherium. So brace yourselves for some amazing insights, great company, endearing interaction and of course some delicious food. The agenda for the day was to visit to a local market to learn about the Bengali cuisine essentials and to try a usual Bengali meal. Hence we started with a visit to the Gariahat fish and vegetable market. It is one of the city’s oldest and biggest market. Fish is the star element of the rich and vibrant Bengali cuisine. It is an indispensable part of the daily meal and such is the craze that more than one preparation graces the average Bengali lunch platter. Their cogent love for fish gets reflected in the busy and the chaotic scene at a fish market where their enthusiasm peaks as they select the best catch for the day. As we stepped inside the walled precincts of the Gariahat Fish market with our host Piyali, a regular visitor to this place, we were thrilled by the sight and smell of the mind boggling variety of live fishes. Piyali walked us through the common spices that preferred for daily cooking. There were Rui, Katla, Pomfret, Bhetki, Tryangra, Illish, Magur and many more. Piyali’s deep knowledge about the nitty gritties of the cuisine and her enthusiasm to acquaint us with the same made us fall in love with the experience. As we made our way through the sea of fishes, we got enlightened about their uses and benefits. Apart from getting familiar with the identities of the fishes, we also came to know about some socio cultural contexts involving these fishes. For example we learnt how the rui or katla fish is a mean of cementing the ties between the bride and the grooms family. In due course of the conversation we also came to know about the two categories of Bengalis, i.e the Ghotis and the Bangals, their prolonged underlying rivalry that has spilled even onto the football fields and their different culinary preferences in spite of having the common ingredients landscape being the same."
+      },
+      {
+        "type": "ig",
+        "url": "https://somethingiscooking.com/wp-content/uploads/2017/01/BengaliFishCurry2.jpg"
+      },
+      {
+        "type": "pg",
+        "content": "From fish section we went to the vegetable section to learn about the favourite picks of the people of Bengal. We came to know that the Bengalis are equally fond of vegetables and the cuisine has iconic range of vegetarian delicacies too. Piyali showed us some of the usual fares like Pumpkin, it’s flower, plantain stem and blossom and some of the unusual yet coveted fares like maan kochu, different kinds of leafy greens vegetables etc. After that insightful market visit it was time to head to her home to taste a basic breakfast fare of luchi, sada aloor tarkari, begun bhaja and rosogolla. But before that Piyali’s spouse Sunando took us to a nearby crowded eatery selling an interesting thing called Patai Porota. As the name suggested, it was a flatbread that had borne the brunt of ruthless palm beating. The resultant fluffy and flaky mass is eaten with yellow pea curry or some sweet stuff. It was tasty but not outstanding. On reaching their home we were joined by one of their close friends Avijit dada. All the walking had made us quite hungry. Piyali quickly whipped up the sada aloor tarkari using just three to four ingredients. Sunando fried the luchi and soon the table was set for the meal and a hearty conversation. The subtle and soulful meal was accompanied by an amusing conversation about some of the quintessential traits and idiosyncrasies of the Bengali people. So there were the references to Borolin antiseptic cream, Dim paruti, Sunlight detergent bar, Horlicks health drinks. We are so grateful for this endearing encounter full of food and cultural connotations."
+      }
+    ],
+    "time": "5",
+    "badges": ["food", "bengali", "cuisine"],
+    "likes": "653",
+    "author": "sn1637324823541"
+  },
+  {
+    "id": "fd1597602600000",
+    "url": "https://i.pinimg.com/originals/ab/70/e2/ab70e2c136c7b03329ea8c814fc4b3e7.jpg",
+    "title": "KOLKATA EATING EXPERIENCE",
+    "gist": "Pice Hotel, Golbari Kosha Mangsho, Ladykeni etc",
+    "summary": "This post is brings you a medley of popular traditional Bengali delicacies from some of the renowned and legendary eateries across the city of Kolkata. In this expedition, we were accompanied by our young and gracious host Pamela Das who guided us with useful insights and snippets regarding the same.",
+    "category": "food",
+    "date": "17 August 2020",
+    "contents": [
+      {
+        "type": "pg",
+        "content": "This post is brings you a medley of popular traditional Bengali delicacies from some of the renowned and legendary eateries across the city of Kolkata. In this expedition, we were accompanied by our young and gracious host Pamela Das who guided us with useful insights and snippets regarding the same."
+      },
+      {
+        "type": "pg",
+        "content": "We started the food tour from a very special place called Suruchi self help restaurant. It’s the city’s oldest Bengali restaurant and is completely owned and operated by women. These women are a league of brave hearts who have battled grave adversities and have emerged strong and resilient. They are the inmates of shelters run by All Bengal Women’s Union, an NGO that works with disadvantaged women and girls. Due to their diligence and skill, Suruchi has earned a name among the masses with its easy on the pocket, home style food. Here we tried a basic combination of steamed rice with dimer jhol (egg curry) followed by a couple of pithe (rice flour based desserts) with payesh (rice and milk pudding). Though the egg curry was thin, light on palette yet it was extremely delicious. Among the desserts we loved the cardamom flavoured patishapthas."
+      },
+      {
+        "type": "ig",
+        "url": "https://i1.wp.com/blog.delhifoodwalks.com/wp-content/uploads/2020/08/DSC02302.jpg?resize=300%2C200"
+      },
+      {
+        "type": "pg",
+        "content": "Meeting the resilient womenfolk in the kitchen and hearing about their stories of struggle and success was a inspiring experience. From there we went on to try a massive Bengali spread at the iconic pice hotels named Swadhin Bharat Hindu Hotel whose origin dates back to the British rule. Situated near the College street, this place was frequented by legends and stalwarts from different fields. Pice hotels are humble eateries that serve traditional Bengali cuisine at affordable rates. They have a pretty extensive lineup of traditional fish based Bengali dishes. We ordered 11 items including rice, dal, fish curries and chutneys. The food was fresh and delicious. We loved eating it from the banana leaves. The service was prompt and satisfactory. The crowd over here included traders, office goers and shoppers."
+      },
+      {
+        "type": "ig",
+        "url": "https://i0.wp.com/blog.delhifoodwalks.com/wp-content/uploads/2020/08/DSC02309-2.jpg?resize=300%2C200"
+      },
+      {
+        "type": "pg",
+        "content": "After that heavy scrumptious meal we headed to have some classic sweets from the legendary Bhim Chandra Nag which is believed to be the birthplace of the popular Bengali sweet called Ladikeni. It is a syrup laden deep fried sweet made of chenna or native cottage cheese. As per the legends this sweets was created as a tribute to the  lovely and charming Lady Canning who was the wife of Lord Canning. Along with the ladikeni we also tried sitabhog and misti doi. Sitabhog is like a sweetened rice flour based vermicelli while misti doi is sweetened curd. Everything, especially the ledikeni, was outstanding."
+      },
+      {
+        "type": "pg",
+        "content": "After that sweet rush we went to Princep Ghat, which is one of the oldest recreational spots in the city. Watching the magnificent structures like the Vidyasagar Setu and the palladium porch at Princep Ghat over a cup of invigorating lebu cha (lemon tea) and ghoti gorom (savoury snacks) was a comforting experience. We spent some time on the banks of river Hooghly admiring it’s majesty."
+      },
+      {
+        "type": "pg",
+        "content": "After that leisurely break we reached our final destination for the day i.e Golbari in Shyambazar. It is one Kolkata’s legendary eateries that has been around for over a century. We were there to try their iconic mutton kosha with porota. The dark brown, slow cooked rich mutton gravy with oil floating on the top was heavenly. It lived up to its reputation though the amount of oil might scare away the health freaks. This journey was a special one for we got to try some of the real flavours of Kolkata."
+      }
+    ],
+    "time": "6",
+    "badges": ["food", "bengali", "mutton"],
+    "likes": "785",
+    "author": "sn1637324823541"
+  },
+  {
+    "id": "fd1599676200000",
+    "url": "https://image.scoopwhoop.com/w1200-h667-cfix/https://s4.scoopwhoop.com/anj/s/781746212.png",
+    "title": "THE KOLKATA BIRYANI TRAIL",
+    "gist": "A close cousin of the Lucknowi Biryani, Kolkata Biryani is loved for its subtle taste and less robust yet toothsome flavours.",
+    "summary": "As a potpourri of various traditions and cultural influences, Kolkata’s cuisine is rich, extensive and vibrant. However, that one dish which has never ceased to win the hearts of the food lovers, is the Kolkata Biryani. A close cousin of the Lucknowi Biryani, Kolkata Biryani is loved for its subtle taste and less robust yet toothsome flavours. ",
+    "category": "food",
+    "date": "10 September 2020",
+    "contents": [
+      {
+        "type": "pg",
+        "content": "As a potpourri of various traditions and cultural influences, Kolkata’s cuisine is rich, extensive and vibrant. However, that one dish which has never ceased to win the hearts of the food lovers, is the Kolkata Biryani. A close cousin of the Lucknowi Biryani, Kolkata Biryani is loved for its subtle taste and less robust yet toothsome flavours. "
+      },
+      {
+        "type": "pg",
+        "content": "Apart from the long grain fragrant rice, aromatic whole spices, good quality meat, optimum use of seasonings and the dum style of cooking, it’s the huge chunks of fried potatoes that lends a unique dimension to its flavour profile. "
+      },
+      {
+        "type": "pg",
+        "content": "The city’s deep seated love for this delicacy is clear through the presence of innumerable biryani joints, both small and big or new and old. With its quintessential characteristics, Kolkata biryani is class apart whose distinguishing feature is the use of potatoes. "
+      },
+      {
+        "type": "pg",
+        "content": "Kolkata (or Calcutta) biryani owes its origin to Lucknow. It originated in the kitchen of Nawab Wajid Ali Shah, the last ruler of Awadh when he moved to Kolkata from Lucknow. Every biryani aficionado will agree that the best Kolkata biryani can only be found in the city and nowhere else. Our quest to taste the best biryani in Kolkata led us to the kitchen of the stalwart chef Manzilat Fatima, who belongs to the lineage Nawab Wajid Shah and to an old, popular eatery in the Northern fringe of the city named Dada Boudi Biryani. "
+      },
+      {
+        "type": "pg",
+        "content": "Come let’s walk you through the experience. It was a privilege to learn the niceties of this stellar dish from someone who has perceived it in close quarters through handed-down recipes and stories. "
+      },
+      {
+        "type": "pg",
+        "content": "Through her popup restaurant that specialises in Awadhi cuisine, Manzilat has been serving happiness to all the food lovers out there. No wonder her chicken and mutton biryani are the talk of the town. Driven by deep passion and love to play with flavours, she and her team serves magic to the discerning customers. Manzilat showed us how to make a classic Kolkata style chicken biryani that anybody can recreate at their home. "
+      },
+      {
+        "type": "pg",
+        "content": "Before stepping into the kitchen, we shared a brief conversation over a gorgeous cup of pink chai and some Ulte Tawa Ke Paranthe.  During the tete-tete, she told us about the apocryphal story of how potatoes came to be a part of the Kolkata biryani. It was soon time to start with the cooking. The irresistible, fragrant biryani was ready in just four easy looking steps. But the masterpiece was a result of passion and expertise. It was a joy to see Manzilat play with the ingredients with such effortless ease."
+      },
+      {
+        "type": "ig",
+        "url": "https://i0.wp.com/blog.delhifoodwalks.com/wp-content/uploads/2020/09/DSC02280-3.jpg"
+      },
+      {
+        "type": "pg",
+        "content": "The biryani was like a warm cuddle. The subtle and hearty flavours in every morsel sent us into a state of calm bliss. Those yearning for a classic Kolkata biryani must try it at Manzilat’s. The potatoes tasted great as well.  We had paired the biryani with burani raita. The meal at Manzilat ended with a brilliant sooji ka halwa."
+      },
+      {
+        "type": "pg",
+        "content": "After trying the classic, Kolkata style chicken biryani from Manzilat, the following day we set out to try it from one of the city’s hugely popular biryani joints named Dada Boudi hotel in Barrackpore. Situated in the Northern part of the city, Barrackpore had gained much relevance during the British Raj, as it formed the administrative and military base then. "
+      },
+      {
+        "type": "pg",
+        "content": "We took an electric train ride to reach the historical town of Barrackpore. On alighting from the train we straightaway headed to their biryani factory where the day’s final batch of biryani was going to be prepared. The factory was like a huge room where an army of cooks were busy preparing for the mission. The sight of the large cauldrons, some over the gas stoves and some over the wood fire was absolutely thrilling. Here we met the industrious team of cooks and associates who diligently carried out the task of preparing the biryani. Soon we realised that the whole process from beginning to the end is thoroughly structured and so for us it was like watching one step smoothly transiting into the next and so on. What really impressed us was the sheer dexterity and enthusiasm of the fellows working in tandem. We were amused by the way they were managing the huge fire and the enormous amount of heat emanating from the same without complaining. "
+      },
+      {
+        "type": "ig",
+        "url": "https://i2.wp.com/blog.delhifoodwalks.com/wp-content/uploads/2020/09/DSC02290-2-1.jpg"
+      },
+      {
+        "type": "pg",
+        "content": "Soon after the biryani got ready, they were loaded into a goods carrier and dispatched to the hotel. The eatery was crowded to the brim of which half were eating in the seating area and half had queued up for the takeaway. Before digging into our plate, we spoke to Bapi da who told us about the place, it’s speciality and the reason behind it’s unwavering popularity. We couldn’t help but notice the sparkle in his eyes as he spoke about the place. Finally we settled down to eat the famous mutton biryani of Dada Boudi hotel. One morsel of this scrumptious fare just won our heart. The flavours were varied yet subtle. The generous piece of mutton was tender and succulent. The rice was flavourful and fluffy and last but not the least, the potato added a comforting touch to the whole dish. Undoubtedly this was the best we have had in Kolkata. "
+      },
+      {
+        "type": "pg",
+        "content": "So this was the story of our Biryani trail in Kolkata. There are many iconic places in the city that serve amazing biryani. We intend to try them on our future visit."
+      }
+    ],
+    "time": "15",
+    "badges": ["food", "kolkata", "bengali", "biryani"],
+    "likes": "1204",
+    "author": "sn1637324823541"
+  },
+  {
+    "id": "fd1582569000000",
+    "url": "https://cdn.shopify.com/s/files/1/0077/7918/8836/files/puri.jpg?v=1581590715",
+    "title": "PATNA VEG FOOD TOUR",
+    "gist": "The historically rich land of Bihar has a diverse cuisine with a plethora of delicacies.",
+    "summary": "The historically rich land of Bihar has a diverse cuisine with a plethora of delicacies. The scrumptious and unique Bihari dishes are a treat for foodies hankering for local flavours. Fascinated by the enticing food stories from the state, we decided to explore its vibrant foodscape beyond the most celebrated litti chokha.",
+    "category": "food",
+    "date": "25 February 2020",
+    "contents": [
+      {
+        "type": "pg",
+        "content": "The historically rich land of Bihar has a diverse cuisine with a plethora of delicacies. The scrumptious and unique Bihari dishes are a treat for foodies hankering for local flavours. Fascinated by the enticing food stories from the state, we decided to explore its vibrant foodscape beyond the most celebrated litti chokha. So here we are all ready with an amusing food series that brings you the gastronomic details from different regions of the state. It is not just a journey of taste but an expedition to collate stories – stories that delights, stories that informs and stories that inspires."
+      },
+      {
+        "type": "pg",
+        "content": "Today we bring you an fascinating food exploration from the capital city of Bihar. It is a busy city with an amazing heritage and culture and also full of amusing people. So let’s see what the journey holds for us. We are so glad to have been joined by Mayank who is a young and passionate food blogger from the city. "
+      },
+      {
+        "type": "ig",
+        "url": "https://i0.wp.com/blog.delhifoodwalks.com/wp-content/uploads/2020/09/IMG-20200513-WA0003.jpg"
+      },
+      {
+        "type": "pg",
+        "content": "We began our journey quite early in the morning from the vicinity near the Patna station as we wanted to start with some amazing local breakfast. Before heading to the most crowded eatery in the area we went to the very famous Mahavir Mandir to pay our reverence to Lord Hanuman. We partook some prasad and set out for Bhola ji’s nashte ki dukaan. It was an insanely crowded place stuffed with people jostling to catch a quick breakfast. The affordable breakfast thali available here consisted of fresh hot puris, jalebi, potato and chana sabzi, dahi vada and raita. Just for 30 rupees the quantity of food is so good that it keeps you  going for a long time. The home styled food was quite good and filling. The place was thronged by office goers waiting to fill them up with some carbohydrate rich stuff before setting off for the daily grind."
+      },
+      {
+        "type": "ig",
+        "url": "https://i1.wp.com/blog.delhifoodwalks.com/wp-content/uploads/2020/09/IMG-20200513-WA0026.jpg"
+      },
+      {
+        "type": "pg",
+        "content": "From there we went to the iconic Puraani Litti Ki Dukan very close to the previous place for the taste of Bihar’s legendary litti and chokha. The place was abuzz with people busy eating the delicacy. We interacted with the genial owner who introduced us to the nuances of this dish. The freshly made litti and chokha tasted heavenly; especially the interplay of the flavours from mustard oil and ghee. Here we also tried crisp hot chandrakala which is a disc shaped traditional fried pastry filled with khoya and dry fruits. "
+      },
+      {
+        "type": "ig",
+        "url": "https://i2.wp.com/blog.delhifoodwalks.com/wp-content/uploads/2020/09/IMG-20200513-WA0024.jpg"
+      },
+      {
+        "type": "pg",
+        "content": "We wrapped up this simple food tour with a special paan that was intended to cleanse the palate and aid digestion. The street food here is a mix of fun treats and healthy filling stuffs. The Bihar food sojourn started on an exciting note."
+      }
+    ],
+    "time": "12",
+    "badges": ["food", "veg", "patna"],
+    "likes": "256",
+    "author": "sn1637324823541"
+  },
+  {
+    "id": "fd1582137000000",
+    "url": "https://images.thrillophilia.com/image/upload/s--VAaCHjK4--/c_fill,h_600,q_auto,w_975/f_auto,fl_strip_profile/v1/images/photos/000/194/464/original/1611573147_c3.jpg.jpg?1611573147",
+    "title": "PATNA CITY FOOD WALK",
+    "gist": "During our Bihar Food Journey, we had stopped by at this place for a brief food exploration to discover it’s prominent and popular flavours.",
+    "summary": "Patna City is a small neighbourhood in the capital that is full of stories from the past. It is the birthplace of Guru Gobind Singh Ji, the tenth guru of the Sikhs. Moreover it is home to one of the most sacred gurudwaras in the country named Patna Sahib Gurudwara or Takht Harmandir Sahib and so it is of great significance to the Sikh community. During our Bihar Food Journey, we had stopped by at this place for a brief food exploration to discover it’s prominent and popular flavours. Let’s tell you what all did we tried.",
+    "category": "food",
+    "date": "20 February 2020",
+    "contents": [
+      {
+        "type": "pg",
+        "content": "Patna City is a small neighbourhood in the capital that is full of stories from the past. It is the birthplace of Guru Gobind Singh Ji, the tenth guru of the Sikhs. Moreover it is home to one of the most sacred gurudwaras in the country named Patna Sahib Gurudwara or Takht Harmandir Sahib and so it is of great significance to the Sikh community. During our Bihar Food Journey, we had stopped by at this place for a brief food exploration to discover it’s prominent and popular flavours. Let’s tell you what all did we tried."
+      },
+      {
+        "type": "ig",
+        "url": "https://i0.wp.com/blog.delhifoodwalks.com/wp-content/uploads/2020/10/IMG-20200523-WA0013.jpg"
+      },
+      {
+        "type": "pg",
+        "content": "Before starting our food tour, we visited the holy and peaceful precinct of Patna Sahib gurudwara to seek the divine blessing. After offering our prayers we headed to the langar hall where preparation for the daily community meal was underway. A team of assigned cooks and volunteers who are devotees themselves were engrossed in different tasks like cutting of vegetables, making rotis, washing and arranging the utensils etc. This voluntary service carried out in any sphere, with deep devotion for the guru and love for the brethren is called seva. Here we first partook the kada prasad and then relished the humble yet delicious meal of dal and roti at the langar hall. This eating service is open to all irrespective of religion, caste or any background. The common rule is that one needs to sit down on the floor in rows with all other devotees and eat the meal. It was quite a surreal experience."
+      },
+      {
+        "type": "ig",
+        "url": "https://i0.wp.com/blog.delhifoodwalks.com/wp-content/uploads/2020/10/IMG-20200523-WA0006.jpg"
+      },
+      {
+        "type": "pg",
+        "content": "We hit the street to try the stuffs that defines the food scene of this place. First we got some kachori and ghugni from Nandu Lal kachori shop in Sabzi Bazar Chowk. The combination of crisp, small-sized sattu stuffed kachoris with an equally amazing kala chana sabzi, locally called ghugni was brilliant. This shop has been around for 100 years. No wonder their deep fried treats is phenomenal. Apart from the taste what’s laudable is the pricing which is quite reasonable. We also tried some crisp fritters made with khesari dal. The kick of garlic and chilli made them a fun treat.  "
+      },
+      {
+        "type": "ig",
+        "url": "https://i2.wp.com/blog.delhifoodwalks.com/wp-content/uploads/2020/10/IMG-20200523-WA0005.jpg"
+      },
+      {
+        "type": "pg",
+        "content": "Our penultimate eating destination was  Suraj and Mahadev Gupta Sweets in Kachori Gali. It is an old sweet shop that is known for its pure milk and ghee based sweets. Our pick from the wide variety of traditional sweets included dahi, khurchan, peda and gajar burfi. Among them the khurchan was a simply a piece of art. It was a stack of pure malai layers that were lined with bhura and cardamom powder. The sweet and rich taste elated the milk lover in us. The peda and gajar burfi too were quite good. "
+      },
+      {
+        "type": "pg",
+        "content": "Finally we ended the food tour with some ber which is a highly nutritious tropical fruit native to this state. The food journey in these sleepy and holy lanes of Patna city stirred up some divine emotions that we carried back with us. "
+      }
+    ],
+    "time": "6",
+    "badges": ["food", "patna"],
+    "likes": "247",
+    "author": "sn1637324823541"
+  },
+  {
+    "id": "fd1586975400000",
+    "url": "https://i2.wp.com/blog.delhifoodwalks.com/wp-content/uploads/2020/10/IMG-20200613-WA0047.jpg",
+    "title": "GAYA FOOD TOUR",
+    "gist": "Bihar’s second largest city, boasts of a vibrant street food scenario dominated by traditional fares that are loved by the locals too",
+    "summary": "The ancient holy city of Gaya in Bihar, referred to as the land of enlightenment and salvation, is a sacred place for Hindu, Buddhist and Jain devotees alike. Mostly frequented by a large number of tourists and pilgrims, Bihar’s second largest city, boasts of a vibrant street food scenario dominated by traditional fares that are loved by the locals too. So let’s take you on an immersive food tour of Gaya. ",
+    "category": "food",
+    "date": "16 April 2020",
+    "contents": [
+      {
+        "type": "pg",
+        "content": "The ancient holy city of Gaya in Bihar, referred to as the land of enlightenment and salvation, is a sacred place for Hindu, Buddhist and Jain devotees alike. Mostly frequented by a large number of tourists and pilgrims, Bihar’s second largest city, boasts of a vibrant street food scenario dominated by traditional fares that are loved by the locals too. So let’s take you on an immersive food tour of Gaya. "
+      },
+      {
+        "type": "pg",
+        "content": "Before starting with our eating spree we first visited the Mahabodhi Temple at Bodh Gaya, one of the major Buddhist worship sites in the world. This UNESCO World Heritage site is the place where Lord Buddha had attained Enlightenment. The sprawling premises were full of monks and devotees from different parts of the world who have arrived here to seek divine blessings."
+      },
+      {
+        "type": "ig",
+        "url": "https://i1.wp.com/blog.delhifoodwalks.com/wp-content/uploads/2020/10/IMG-20200613-WA0026.jpg"
+      },
+      {
+        "type": "pg",
+        "content": "On emerging from the temple complex, we noticed a few food stalls and vendors, primarily selling Tibetan fares. Here we bought some fresh phaley bread from one of the numerous ladies selling it on the roadside, headed to Three Dolma Noodles Shop and ordered some hearty rice noodles. It was fun eating the noodles in the company of a group of monks visiting from Southern India. The phaley bread went well with tea and as well as the rice noodles soup broth."
+      },
+      {
+        "type": "ig",
+        "url": "https://i2.wp.com/blog.delhifoodwalks.com/wp-content/uploads/2020/10/IMG-20200613-WA0038.jpg"
+      },
+      {
+        "type": "pg",
+        "content": "Soon we then set out for Gaya and on reaching there we first offered our prayers at the famous Vishnupada temple and then began our food tour. The first stop was Rajasthani Bhojnalaya on South Church Road. As the name suggests their menu was a mix of popular Rajasthani and Bihari fares. Their no onion garlic Bihari thali containing rice, karela aloo fry, aloo rajma, dal, kadhi pakoda, spinach moong, dahi, matar paneer, makhuni etc. impressed us with its homely taste and affordability. Of these, the ghee smeared makhuni i.e sattu stuffed baked flatbread was brilliant. "
+      },
+      {
+        "type": "ig",
+        "url": "https://i0.wp.com/blog.delhifoodwalks.com/wp-content/uploads/2020/10/IMG-20200613-WA0019.jpg"
+      },
+      {
+        "type": "pg",
+        "content": "The second destination was Kesari Chaat, a family run chat centre at Dr. Haridas Chatterjee Road, Durga Bari. Their spicy, tangy and flavourful palak paneer chaat is the talk of the town. It is a well balanced pot pourri of paneer pakoda, palak sooji pakoda, chole, curd and chutneys, sev etc. This was followed by an equally brilliant aloo malpua, a syrup lagen dessert made with potatoes. "
+      },
+      {
+        "type": "pg",
+        "content": "The final destination of this immersive food tour, that spanned for the whole day was Srimani Prasad Chaat Wale in Dhamitola. Both the dish and the vendor selling it were quite fascinating. The robust aloo dum chaat was a potpourri of nearly 4 to 5 curries, chutneys and small snacks. Srimani ji was super amusing too. "
+      }
+    ],
+    "time": "9",
+    "badges": ["food", "gaya", "bihar", "tibetan"],
+    "likes": "451",
     "author": "sn1637324823541"
   }
 ]

@@ -8,7 +8,6 @@ const navigationData = [
   { id: 2, text: 'technology', to: 'technology' },
   { id: 3, text: 'travel', to: 'travel' },
   { id: 4, text: 'food', to: 'food' },
-  { id: 5, text: 'fitness', to: 'fitness' },
 ];
 
 const MainNavigation = () => {
