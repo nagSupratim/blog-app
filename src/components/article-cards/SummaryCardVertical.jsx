@@ -16,7 +16,7 @@ const SummaryCardVertical = (props) => {
           }}
         ></div>
         <div className="row">
-          <div className="col-12 col-md">
+          <div className="col-12 col-md-9">
             <section className={`${classes['article-details']}`}>
               <div className={`${classes['article-info-heading']}`}>
                 <ArticleHeading>{props.title}</ArticleHeading>

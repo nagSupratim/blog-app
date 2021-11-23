@@ -1,4 +1,5 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import StoryArticle from './article-cards/StoryArticle';
 
 import Heading from './ui/Heading';
@@ -7,6 +8,7 @@ import classes from './LatestStories.module.css';
 import ArrowBtn from './ui/ArrowBtn';
 
 const LatestStories = (props) => {
+  const navigate = useNavigate();
   return (
     <div className="my-5">
       <Heading>Latest Stories</Heading>
@@ -27,6 +29,9 @@ const LatestStories = (props) => {
         type="right"
         arrowStart={false}
         className="ms-3 ms-md-5"
+        onClick={() => {
+          navigate('/category/bollywood');
+        }}
       />
     </div>
   );
