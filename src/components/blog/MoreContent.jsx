@@ -13,7 +13,7 @@ const MoreContent = (props) => {
 
   useEffect(() => {
     setBlogs(ctx.getRelatedBlogs(props.user.id, props.blogId));
-  }, [ctx, props.user.id, props.blogId]);
+  }, [props.user.id, props.blogId]);
 
   if (!blogs) return <p>fallback</p>;
   return (
@@ -58,4 +58,4 @@ const MoreContent = (props) => {
   );
 };
 
-export default MoreContent;
+export default React.memo(MoreContent);

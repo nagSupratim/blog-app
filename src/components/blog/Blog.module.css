@@ -113,3 +113,7 @@
     left: 19%;
   }
 }
+
+.liked {
+  color: rgb(32, 32, 170) !important;
+}

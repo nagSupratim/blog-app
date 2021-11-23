@@ -1,4 +1,4 @@
-import React, { useContext } from 'react';
+import React, { useContext, useState } from 'react';
 import { Container } from 'react-bootstrap';
 import AppContext from '../../store/app-context';
 import Badge from '../ui/Badge';
@@ -19,6 +19,7 @@ import MoreContent from './MoreContent';
 
 const Blog = (props) => {
   const ctx = useContext(AppContext);
+  const [liked, setLiked] = useState(false);
 
   const blog = ctx.getBlog(props.id);
   if (!blog) return <Fallback />;
@@ -60,8 +61,14 @@ const Blog = (props) => {
               <Badge key={i}>{badge}</Badge>
             ))}
           </div>
-          <div className={classes.reactions}>
-            <LikeIcon />
+          <div
+            className={classes.reactions}
+            onClick={() => {
+              setLiked((prev) => !prev);
+              ctx.toggleLike(blog.id, !liked);
+            }}
+          >
+            <LikeIcon className={liked && classes.liked} />
             <div>
               <span>{blog.likes}</span> likes
             </div>
@@ -76,8 +83,14 @@ const Blog = (props) => {
           </div>
         </BlogContainer>
         <div className={classes.actions}>
-          <div className={classes.reactions}>
-            <LikeIcon />
+          <div
+            className={classes.reactions}
+            onClick={() => {
+              setLiked((prev) => !prev);
+              ctx.toggleLike(blog.id, !liked);
+            }}
+          >
+            <LikeIcon className={liked && classes.liked} />
             <div>
               <span>{blog.likes}</span>
             </div>

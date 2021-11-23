@@ -31,8 +31,13 @@ export const YoutubeIcon = () => {
   return <ImYoutube style={iconStyleD}></ImYoutube>;
 };
 
-export const LikeIcon = () => {
-  return <BsHandThumbsUp style={iconStyleL}></BsHandThumbsUp>;
+export const LikeIcon = (props) => {
+  return (
+    <BsHandThumbsUp
+      style={iconStyleL}
+      className={props.className}
+    ></BsHandThumbsUp>
+  );
 };
 
 export const ShareIcon = () => {

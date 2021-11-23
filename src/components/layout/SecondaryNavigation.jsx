@@ -1,10 +1,11 @@
 import React from 'react';
 import { Button, Container, Nav, Navbar } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 import classes from './SecondaryNavigation.module.css';
 
 const SecondaryNavigation = () => {
+  const navigate = useNavigate();
   return (
     <Navbar bg="white" className={`px-2 py-0 px-md-5 ${classes.navBar}`}>
       <Container>
@@ -18,7 +19,13 @@ const SecondaryNavigation = () => {
         </Navbar.Brand>
         <Nav className="w-100 justify-content-end align-items-center mx-md-5 px-md-5">
           <Nav.Link>
-            <Button variant="outline-success" size="sm">
+            <Button
+              variant="outline-success"
+              size="sm"
+              onClick={() => {
+                navigate('/home');
+              }}
+            >
               Get Started
             </Button>
           </Nav.Link>
