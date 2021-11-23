@@ -1,4 +1,4 @@
-import React, { useContext } from 'react';
+import React, { useContext, useState } from 'react';
 import AppContext from '../../store/app-context';
 import Advertisement from '../Advertisement';
 import LatestArticles from '../LatestArticles';
@@ -9,14 +9,21 @@ import VerticalGallery from '../VerticalGallery';
 
 const HomeComponent = () => {
   const ctx = useContext(AppContext);
+  const [countLatestArticles, setCountLatestArticles] = useState(4);
 
   const blogs = ctx.blogs;
   const topBlogs = ctx.getTopBlogs();
   const latestBlogs = ctx.getLatestBlogs();
   const secondaryLatestBlogs = {
-    blogs: ctx.getSecondaryLatestBlogs(),
+    blogs: ctx.getSecondaryLatestBlogs(countLatestArticles),
     gallery: ctx.getSecondaryGalleryBlog(),
   };
+
+  const loadMore = () => {
+    setCountLatestArticles((prev) => prev + 4);
+  };
+
+  const showLoadMore = !(countLatestArticles >= ctx.blogs.length);
 
   if (!blogs) return <p>fallback</p>;
 
@@ -27,7 +34,11 @@ const HomeComponent = () => {
         <LatestPosts data={latestBlogs} />
         <div className="row gap-4 px-3">
           <div className="col-12 col-md-8 p-0">
-            <LatestArticles data={secondaryLatestBlogs} />
+            <LatestArticles
+              data={secondaryLatestBlogs}
+              loadMore={loadMore}
+              showLoadMore={showLoadMore}
+            />
           </div>
           <div className="col p-0 mt-5">
             <Advertisement

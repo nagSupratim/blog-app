@@ -5,13 +5,14 @@ import usersData from './data/users.json';
 const AppContext = React.createContext({
   blogs: [],
   users: [],
-  getBlogs: (category) => {},
+  getBlogs: (category, count) => {},
+  getBlogsCount: (category) => {},
   getTopBlogs: (category) => {},
   getBlog: (id) => {},
   getUser: (id) => {},
   getRelatedBlogs: (authorid, blogid) => {},
   getLatestBlogs: () => {},
-  getSecondaryLatestBlogs: () => {},
+  getSecondaryLatestBlogs: (count) => {},
   getPrimaryGalleryBlogs: () => {},
   getSecondaryGalleryBlog: () => {},
   toggleLike: (id, set) => {},
@@ -26,9 +27,14 @@ export const AppProvider = (props) => {
     setUsers(usersData);
   }, []);
 
-  const getBlogs = (category) => {
-    return blogs.filter((blog) => blog.category === category);
+  const getBlogs = (category, count = 4) => {
+    return blogs.filter((blog) => blog.category === category).slice(0, count);
   };
+
+  const getBlogsCount = (category) => {
+    return blogs.filter((blog) => blog.category === category).length;
+  };
+
   const getTopBlogs = (category = 'any') => {
     return category === 'any'
       ? blogs.sort((a, b) => +b.likes - +a.likes).slice(0, 4)
@@ -44,10 +50,10 @@ export const AppProvider = (props) => {
       .slice(0, 3);
   };
 
-  const getSecondaryLatestBlogs = () => {
+  const getSecondaryLatestBlogs = (count) => {
     return blogs
       .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
-      .slice(3, 7);
+      .slice(3, 3 + count);
   };
 
   const getBlog = (id) => {
@@ -95,6 +101,7 @@ export const AppProvider = (props) => {
         blogs: blogs,
         user: [],
         getBlogs: getBlogs,
+        getBlogsCount: getBlogsCount,
         getTopBlogs: getTopBlogs,
         getBlog: getBlog,
         getUser: getUser,

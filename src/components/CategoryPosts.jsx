@@ -24,12 +24,15 @@ const CategoryPosts = (props) => {
           ))}
         </div>
       </div>
-      <ArrowBtn
-        label="load more"
-        type="down"
-        arrowStart={true}
-        className="my-3"
-      />
+      {props.showLoadMore && (
+        <ArrowBtn
+          label="load more"
+          type="down"
+          arrowStart={true}
+          className="my-3"
+          onClick={props.loadMore}
+        />
+      )}
     </div>
   );
 };

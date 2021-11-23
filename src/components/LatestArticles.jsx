@@ -23,12 +23,15 @@ const LatestArticles = (props) => {
           ))}
         </div>
       </div>
-      <ArrowBtn
-        label="load more"
-        type="down"
-        arrowStart={true}
-        className="my-3 ms-4"
-      />
+      {props.showLoadMore && (
+        <ArrowBtn
+          label="load more"
+          type="down"
+          arrowStart={true}
+          className="my-3 ms-4"
+          onClick={props.loadMore}
+        />
+      )}
       <div className="d-none d-md-block my-5 py-5" style={{ height: '610px' }}>
         <ImageArticle {...props.data.gallery} align="center" />
       </div>
